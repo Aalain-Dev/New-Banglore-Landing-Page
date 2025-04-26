@@ -14,7 +14,7 @@ const Video = () => {
           <h1 className = "xl:text-3xl text-[20px] uppercase font-semibold">CAPITAL CONNECT 
 
 </h1>
-          <h1  className = "xl:text-9xl text-white">BANGLORE</h1>
+          <h1  className = "xl:text-9xl text-white">BANGALORE</h1>
           <h1 className="xl:text-2xl  font-bold mb-4 text-center">
             <TypeAnimation
               sequence={[
