@@ -4,6 +4,7 @@ import Footer from '../Components/Footer'
 import Speakers_Banner from '../Components/Speakers_Banner'
 import Speakers from '../Components/Speakers'
 import BE_A_SPEAKER from '../Components/BE_A_SPEAKER'
+import Timer from '../Components/Timer'
 
 const Speakers_Main = () => {
   const data = [
@@ -26,6 +27,8 @@ const Speakers_Main = () => {
 <Speakers/>
 <BE_A_SPEAKER />
 <Footer/>
+<Timer/>
+
 </>
   )
 }

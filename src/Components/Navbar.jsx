@@ -74,7 +74,8 @@ const Navbar = () => {
             <Link to="/speakers" className="text-lg font-semibold" onClick={toggleSidebar}>Speakers</Link>
             <Link to="/featured-companies" className="text-lg font-semibold" onClick={toggleSidebar}>Featured Companies</Link>
             {/* <a href="#" className="text-lg font-semibold" onClick={toggleSidebar}>Buy Tickets</a> */}
-            {/* <Link to="/exhibitors" className="text-lg font-semibold" onClick={toggleSidebar}>Exhibit</Link> */}
+            <a href="https://www.bizdateup.com/privacypolicy"target='_blank' rel="noopener noreferrer"  className="text-lg font-semibold">Privacy Policy</a>
+
             <a href="" className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full">
                 Buy Tickets
               </a>
@@ -82,6 +83,7 @@ const Navbar = () => {
                 <p className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full">
                   Exhibitors
                 </p>
+                
               </Link>
           </div>
         </div>

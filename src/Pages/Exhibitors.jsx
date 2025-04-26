@@ -5,6 +5,7 @@ import Speakers_Banner from '../Components/Speakers_Banner'
 import Exhibitors_Card from '../Components/Exhibitors_Card'
 import Company_Card from '../Components/Company_Card'
 import All_Cards from '../Components/All_Cards'
+import Timer from '../Components/Timer'
 
 const Exhibitors = () => {
     const data = [
@@ -20,6 +21,7 @@ const Exhibitors = () => {
     <Exhibitors_Card/>
    <All_Cards/>
     <Footer/>
+<Timer/>
     
     </>
   )

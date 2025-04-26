@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import Speakers_Banner from '../Components/Speakers_Banner'
 import Companies from '../Components/Companies'
+import Timer from '../Components/Timer'
 
 const Featured_Companies = () => {
     const data = [
@@ -17,6 +18,7 @@ const Featured_Companies = () => {
 <Speakers_Banner data = {data}/>
 <Companies/>
  <Footer/>
+ <Timer/>
   </>
   )
 }
