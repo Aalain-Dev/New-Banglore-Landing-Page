@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import img from "../assets/Update/img.webp";
+import img from "../assets/Update/img.avif";
 
 // Form validation schema
 const validationSchema = Yup.object({
