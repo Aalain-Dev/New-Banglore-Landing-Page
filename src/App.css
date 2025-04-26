@@ -1,0 +1,155 @@
+@import "tailwindcss";
+.container{
+    max-width: 1400px!important;
+    margin: 0 auto !important;
+padding: 0px 20px;
+}
+
+.pink-bg{
+    background-color: #ff4bd8;
+}
+.light-blue-bg{
+    background-color: #2b2388;
+}
+.dark-blue-bg{
+    background-color: #0a082f;
+}
+.pink-color{
+    color: #ff4bd8;
+}
+.light-blue-color{
+    color: #2b2388;
+}
+.dark-blue-color{
+    color: #0a082f;
+}
+.primary-btn{
+    transition: 0.5s linear;
+    
+}
+
+.primary-btn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s linear;
+    scale:1.05
+}
+
+
+.hover-img:hover{
+    scale: 1.1;
+    transition: 0.5s linear;
+}
+
+.line-wrapper{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 0px;
+    position: relative;
+}
+.blue-back{
+    background: url("./");
+}
+
+/* .down-border{
+    border-bottom: 2px solid #000;
+    border-bottom-width:2px ;
+    border-radius: 1px;
+} */
+ .triangle{
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    transform: translate3d(-50%, 0px, 0px);
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid rgb(255, 255, 255);
+ 
+ }
+
+ .blue-color{
+    color: #211F52
+    ;
+ }
+ .red-color{
+    color: #FC466B
+    ;
+
+ }
+ .glass{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+transition: 0.5s linear;
+ }
+
+ .gradient-bg{
+    background: linear-gradient(82deg,rgba(33, 31, 82, 1) 33%, rgba(167, 51, 118, 1) 90%);
+
+    transition: 0.5s linear;
+
+}
+/* #211F52 */
+.gradient-bg:hover{
+    background: #211F52;
+    color: #fff;
+   transition: 0.5s linear;
+}
+.bg-blue-add{
+    background-color: #211F52;
+}
+.bg-red-add{
+    background-color: #FC466B;
+}
+
+.similar-head{
+    font-size: 30px;
+
+}
+.similar-head-buy-ticket{
+    font-size: 40px;
+}
+@media screen and (max-wdith:991px) {
+    .similar-head{
+        font-size: 20px;
+        
+    }
+    .similar-head-buy-ticket{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:600px) {
+    .text-strip{
+        font-size: 13px;
+    }
+    .flex-col-h{
+        flex-direction: column;
+    }
+}
+.sidebar {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+.bg-added{
+    background: linear-gradient(to bottom, #8FB9F3, #345cc0);
+
+}
+.none-600{
+    display: block;
+}
+.show-600{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .none-600{
+        display: none;
+    }
+    .show-600{
+        display: block  ;
+    }
+}
