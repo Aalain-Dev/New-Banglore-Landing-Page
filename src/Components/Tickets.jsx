@@ -13,12 +13,12 @@ const Tickets = () => {
        <div className="flex flex-col justify-center items-center">
  <div className="line-wrapper border-[#211F52] border-2 xl:w-[500px] w-full pb-10 mb-5 flex justify-center">
     
- <div className="bg-blue-add z-10 text-white px-3 py-1 rounded-full xl:text-xl font-semibold inline-block mb-5 line absolute top-[-20px] ">FOR COMPANIES</div>
+ <div className="bg-blue-add z-10 text-white px-3 py-1 rounded-full xl:text-xl font-semibold inline-block mb-5 line absolute top-[-20px] ">FOR ATTENDEES</div>
  </div>
     <div className="w-full xl:w-[500px] border-2 border-[#211F52] rounded-xl  bg-white shadow-lg pb-2">
       <div className="text-center mb-4 ">
        <div className="flex rounded-tr-[10px] h-50 rounded-tl-[10px] bg-blue-add justify-center items-center    ">
-       <h2 className="text-3xl font-bold text-white  ">COMPANY</h2>
+       <h2 className="text-3xl font-bold text-white  "> ATTENDEES </h2>
        </div>
         {/* <img src="/your-image-path/company.png" alt="Company Badge" className="mx-auto w-16 my-2" /> */}
    <div className="flex items-center justify-center gap-10 mt-10">
@@ -37,20 +37,34 @@ const Tickets = () => {
       </div>
       </div>
       <p className=" text-lg mb-4 font-semibold text-center border-t border-b pt-5 pb-5 bg-[#0a082f13] border-t-2 border-b-2 border-[#211F52] blue-color">
-        For employees of affiliate networks, advertisers, traffic sources, solution & service providers, or agencies
+      Ideal for New Investors, Early-stage Founders, Consultants & Service Providers. 
       </p>
   <div className="p-5">
   <ul className="text-sm space-y-3  ">
-        <li className="flex items-start text-lg blue-color"><span className="blue-color font-bold mr-2">✔</span> Identified as a company</li>
-        <li className="flex items-start text-lg blue-color"><span className="blue-color font-bold mr-2">✔</span> Your logo on badge (black & white)</li>
-        <li className="flex items-start text-lg blue-color"><span className="blue-color font-bold mr-2">✔</span> Company & job title on your app profile</li>
-        <li className="flex items-start text-lg blue-color"><span className="blue-color font-bold mr-2">✔</span> Company info on featured page</li>
-        <li className="flex items-start text-lg blue-color"><span className="blue-color font-bold mr-2">✔</span> 2-Day exhibition</li>
-        <li className="flex items-start text-lg blue-color"><span className="blue-color font-bold mr-2">✔</span> 35+ live speeches, panels & Q&As</li>
-        <li className="flex items-start text-lg blue-color"><span className="blue-color font-bold mr-2">✔</span> 5+ Networking Mixers</li>
-        <li className="flex items-start text-lg blue-color"><span className="blue-color font-bold mr-2">✔</span> Official Networking Events & Parties</li>
-        <li className="flex items-start text-lg blue-color"><span className="blue-color font-bold mr-2">✔</span> Live chat with attendees via AW App</li>
-        <li className="flex items-start text-lg text-gray-400"><span className="font-bold mr-2">✖</span> Exclusive access to First-Timers' Affiliate Meetup</li>
+  <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Identified as Investor
+      </li>
+      <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Full Day Access Pass
+      </li>
+      <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        3 Pitches, Panels, and Fireside Chats
+      </li>
+      <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Networking Lunch & Hi-Tea
+      </li>
+      <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Coffee Rave
+      </li>
+      <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Live Chat with Attendees
+      </li>
       </ul>
       <button className="light-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-blue-add ">
         BUY NOW
@@ -64,12 +78,12 @@ const Tickets = () => {
     <div className="flex flex-col justify-center items-center">
  <div className="line-wrapper  border-[#FC466B] border-2 xl:w-[500px] w-full pb-10 mb-5 flex justify-center">
     
- <div className="dark-blue-bg z-10 text-white px-3 py-1 rounded-full xl:text-xl font-semibold inline-block mb-5 line absolute top-[-20px] bg-red-add  ">FOR COMPANIES</div>
+ <div className="dark-blue-bg z-10 text-white px-3 py-1 rounded-full xl:text-xl font-semibold inline-block mb-5 line absolute top-[-20px] bg-red-add  uppercase">FOR Startups</div>
  </div>
     <div className="w-full xl:w-[500px] border-2 border-[#FC466B] rounded-xl  bg-white shadow-lg pb-2">
       <div className="text-center mb-4 ">
        <div className="flex rounded-tr-[10px] h-50 rounded-tl-[10px] dark-blue-bg justify-center items-center  bg-red-add  ">
-       <h2 className="text-3xl font-bold text-white  ">COMPANY</h2>
+       <h2 className="text-3xl font-bold text-white uppercase ">Startups </h2>
        </div>
         {/* <img src="/your-image-path/company.png" alt="Company Badge" className="mx-auto w-16 my-2" /> */}
    <div className="flex items-center justify-center gap-10 mt-10">
@@ -88,20 +102,30 @@ const Tickets = () => {
       </div>
       </div>
       <p className="red-color text-lg mb-4 font-semibold text-center border-t border-b border-[#FC466B] pt-5 pb-5 bg-[#0a082f13] border-t-2 border-b-2">
-        For employees of affiliate networks, advertisers, traffic sources, solution & service providers, or agencies
+      Ideal for Growth Stage Startup founders looking to raise funds.
       </p>
   <div className="p-5">
   <ul className="text-sm space-y-3  ">
-        <li className="flex red-color  items-start text-lg"><span className="red-color font-bold mr-2">✔</span> Identified as a company</li>
-        <li className="flex  red-color items-start text-lg"><span className="red-color font-bold mr-2">✔</span> Your logo on badge (black & white)</li>
-        <li className="flex  red-color items-start text-lg"><span className="red-color font-bold mr-2">✔</span> Company & job title on your app profile</li>
-        <li className="flex  red-color items-start text-lg"><span className="red-color font-bold mr-2">✔</span> Company info on featured page</li>
-        <li className="flex  red-color items-start text-lg"><span className="red-color font-bold mr-2">✔</span> 2-Day exhibition</li>
-        <li className="flex  red-color items-start text-lg"><span className="red-color font-bold mr-2">✔</span> 35+ live speeches, panels & Q&As</li>
-        <li className="flex red-color  items-start text-lg"><span className="red-color font-bold mr-2">✔</span> 5+ Networking Mixers</li>
-        <li className="flex  red-color items-start text-lg"><span className="red-color font-bold mr-2">✔</span> Official Networking Events & Parties</li>
-        <li className="flex  red-color items-start text-lg"><span className="red-color font-bold mr-2">✔</span> Live chat with attendees via AW App</li>
-        <li className="flex red-color  items-start text-lg text-gray-400"><span className="font-bold mr-2">✖</span> Exclusive access to First-Timers' Affiliate Meetup</li>
+  <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Identified as a Super Startup Founder
+      </li>
+      <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Your Logo on the Badge
+      </li>
+      <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Company Logo, Name and Description on Startup page.
+      </li>
+      <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Access to Investor’s Lounge
+      </li>
+      <li className="flex items-start text-lg blue-color">
+        <span className="blue-color font-bold mr-2">✔</span>
+        Speed Dating with Investors
+      </li>
       </ul>
       <a className="inline-block text-center dark-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-red-add">
         BUY NOW
