@@ -34,7 +34,7 @@ const Video = () => {
           <a href ="" className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-90 ">
             Buy Tickets
           </a>
-        <p className='flex gap-2 bg-[#bdb7b750] px-3 py-3 rounded-2xl xl:text-xl'><img src= {star}/> 4.8 Truspilot</p>
+        <p className='flex gap-2 bg-[#bdb7b750] px-3 py-3 rounded-2xl xl:text-xl'><img src= {star}/> 4.9 Google Review</p>
           </div>
 
         <Icon_Slider/>
