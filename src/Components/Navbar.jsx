@@ -21,9 +21,9 @@ const Navbar = () => {
               <img src={logo} alt="Logo" className="w-[200px]" />
             </Link>
             <div className="flex gap-2 items-center">
-              <Link to="/speakers">
+              <Link to="/speakers-events-schedule">
                 <button className="text-[16px] px-5 py-2 rounded-xl font-bold cursor-pointer text-white hover:bg-[#211F52] hover:text-white transition-all duration-300 ease-in-out hover:scale-105">
-                  Speakers
+                  Speakers & Event Schedule
                 </button>
               </Link>
               <Link to="/featured-companies">
@@ -71,7 +71,7 @@ const Navbar = () => {
               ×
             </button>
           </div>
-            <Link to="/speakers" className="text-lg font-semibold" onClick={toggleSidebar}>Speakers</Link>
+            <Link to="/speakers-events-schedule" className="text-lg font-semibold" onClick={toggleSidebar}>Speakers & Event Schedule</Link>
             <Link to="/featured-companies" className="text-lg font-semibold" onClick={toggleSidebar}>Featured Companies</Link>
             {/* <a href="#" className="text-lg font-semibold" onClick={toggleSidebar}>Buy Tickets</a> */}
             <a href="https://www.bizdateup.com/privacypolicy"target='_blank' rel="noopener noreferrer"  className="text-lg font-semibold">Privacy Policy</a>

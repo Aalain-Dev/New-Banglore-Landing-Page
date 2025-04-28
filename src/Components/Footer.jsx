@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className="flex xl:flex-row flex-col justify-center items-center space-x-4 blue-color font-bold">
           <Link to="/exhibitors">Exhibitors</Link>
-          <Link to="/speakers">Speakers</Link>
+          <Link to="/speakers-events-schedule">Speakers & Event Schedule</Link>
           <Link to="/featured-companies" >Featured Companies</Link>
           <a href="https://www.bizdateup.com/privacypolicy"target='_blank' rel="noopener noreferrer">Privacy Policy</a>
         </div>

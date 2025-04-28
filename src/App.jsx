@@ -12,7 +12,7 @@
   <>
   <Routes>
           <Route path="/" element ={<Home/>} />
-          <Route path="/speakers" element ={<Speakers_Main/>} />
+          <Route path="/speakers-events-schedule" element ={<Speakers_Main/>} />
           <Route path="/exhibitors" element ={<Exhibitors/>} />
           <Route path="/featured-companies" element ={<Featured_Companies/>} />
       
