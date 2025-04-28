@@ -3,24 +3,24 @@ import { ChevronDown } from "lucide-react";
 
 const faqss = [
   {
-    question: "How many tickets are in Company Pass?",
-    answer: "It includes up to 4 tickets per company.",
+    question: "How many tickets are in Startup Pass?",
+    answer: "Two people per Startup pass are allowed.",
   },
   {
-    question: "Is there an after party / networking event?",
-    answer: "Yes! We have dedicated networking sessions and an official after party.",
+    question: "Are there any networking event?",
+    answer: "We have a Netowrking Lunch,  Coffee Rave and Networking hi-tea towards the end.",
   },
   {
     question: "Do you offer additional discounts?",
-    answer: "Group discounts are available. Reach out to our support team.",
+    answer: "We are unable to provide further discounts as our tickets are already offered at a discounted ticket rate. We do offer bundle discounts that you can get by connecting with Khushi@bizdateup.com",
   },
   {
-    question: "Who attends Affiliate World?",
-    answer: "Affiliate World brings together marketers, brands, agencies, and networks from around the globe.",
+    question: "Who attends Capital Connect?",
+    answer: "Capital Connect -  This is one of your events from around the nation. It is a meeting place where newbies and experts come together to network, learn, and move the Ecosystem forward. Popular attendee backgrounds include VC, Investment banking and Mentorships.",
   },
   {
-    question: "asdas?",
-    answer: "Affiliate World brings together marketers, brands, agencies, and networks from around the globe.",
+    question: "Can I speak or propose a speaker for Capital Connect?",
+    answer: "We are always looking for interesting speakers and talks for our line-up. If you have someone in mind or would like to nominate a suggestion, please fill reach out with Khushi@bizdateup.com",
   },
 ];
 const faqs = [
@@ -44,6 +44,18 @@ const faqs = [
     question: "asdas?",
     answer: "Affiliate World brings together marketers, brands, agencies, and networks from around the globe.",
   },
+  {
+    question: "Where is the Event venue?",
+    answer: "ICB INDIAN CRAFT BREWERY - Sy no 90/3, K, 572/90, Outer Ring Rd, beside Manhpo Convention Center, DadaMastan Layout, Manayata Tech Park, Nagawara, Bengaluru, Karnataka 560045",
+  },
+  {
+    question: "Can I transfer my ticket to another person?",
+    answer: "You may re-assign your ticket up to 48 hours before the event by contacting Khushi@bizdateup.com",
+  },
+  {
+    question: "Can I get a refund if I am not able to attend?",
+    answer: " Refunds are not allowed",
+  },
 ];
 export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -58,7 +70,7 @@ export default function FAQ() {
   <h1 className="similar-head blue-color font-extrabold text-center mb-2 mt-10">FREQUENTLY ASKED QUESTIONS
   </h1>
 <div className="flex xl:flex-row flex-col gap-0">
-<div className="max-w-3xl mx-auto mt-5 p-4">
+{/* <div className="max-w-3xl mx-auto mt-5 p-4">
       {faqs.map((faq, index) => (
         <div
           key={index}
@@ -83,7 +95,7 @@ export default function FAQ() {
           </div>
         </div>
       ))}
-    </div>
+    </div> */}
     <div className="max-w-3xl mx-auto mt-5 p-4">
       {faqss.map((faq, index) => (
         <div

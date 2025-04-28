@@ -8,10 +8,11 @@ const One_Pass = () => {
     <>
       <div className="xl:mt-10 mt-5 xl:mb-10 mb-5">
         <h1 className="text-center font-bold mb-5 similar-head blue-color">
-          ONE PASS. TWO GAME-CHANGING DAYS.
+        ONE PASS
+
         </h1>
         <p className="text-center font-bold similar-head red-color">
-          GET ACCESS TO:
+        Full Day of Opportunies
         </p>
         <div className="container">
           {/* grid grid-cols- sm:grid-cols-2 xl:grid-cols-4 */}

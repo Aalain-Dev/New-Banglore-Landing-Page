@@ -12,27 +12,27 @@ const data = [
     {
         id:1,
         img:img1,
-        title:"$1M+ per month advertisers",
+        title:"Vc Funds ",
     },
     {
         id:2,
         img:img2,
-        title:"Fastest-growing traffic sources",
+        title:" Angel Platforms",
     },
     {
         id:3,
         img:img3,
-        title:"54% marketers who generate over $100k per month",
+        title:"Incubators",
     },
     {
         id:4,
         img:img4,
-        title:"Fastest-growing Shopify stores",
+        title:"Mentors",
     },
     {
         id:5,
         img:img5,
-        title:"Lead gen advertisers in finance, solar, insurance, health, and many more",
+        title: "Angel In",
     }
 ]
 
