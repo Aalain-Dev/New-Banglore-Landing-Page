@@ -13,10 +13,10 @@ const Venue = () => {
 </h1>
 <p className='text-center text-white xl:text-[2.5rem] text-[1.2rem] font-bold'>
 
-Hungexpo Budapest Congress and Exhibition Center
+ICB INDIAN CRAFT BREWERY
 
 </p>
-<a href="" className='text-white mt-10 underline pb-2'>View In Maps</a>
+<a href="https://www.google.com/maps?sca_esv=3470b58f8723632d&rlz=1C1RXMK_enIN997IN997&uact=5&gs_lp=Egxnd3Mtd2l6LXNlcnAiHUlDQiBJTkRJQU4gQ1JBRlQgQlJFV0VSWSBtYXBzMgsQLhiABBjHARivATIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyGhAuGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEBSLcJUABY2AhwAHgAkAEAmAGHAqABkQeqAQUwLjEuM7gBA8gBAPgBAvgBAZgCBKACowfCAhAQLhiABBhDGMcBGIoFGK8BwgIFEAAYgATCAh8QLhiABBhDGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEBmAMA4gMFEgExIEC6BgYIARABGBSSBwUwLjEuM6AH6iGyBwUwLjEuM7gHowc&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KVfFE5vbF647MRgqfJGU7rWH&daddr=Sy+no+90/3,+K,+572/90,+Outer+Ring+Rd,+beside+Manhpo+Convention+Center,+DadaMastan+Layout,+Manayata+Tech+Park,+Nagawara,+Bengaluru,+Karnataka+560045" target="_blank" className='text-white mt-10 underline pb-2'>View In Maps</a>
 </div>
 </div>
     </div>

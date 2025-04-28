@@ -32,7 +32,7 @@ const data = [
     {
         id:5,
         img:img5,
-        title: "Angel In",
+        title: "Angel Investor",
     }
 ]
 
@@ -62,19 +62,7 @@ const data = [
        }
         
     </div>
-    <div className="text  xl:mt-20">
-        <h2 className='text-center xl:text-[1.5rem] text-white xl:font-bold border-t-2 border-b-2 p-2 mt-10'>Plus reps, employees and owners of many of these companies and more:
-</h2>
-<div className="mt-10 grid xl:grid-cols-5 grid-cols-2 gap-10 place-items-center">
-        <img src={img} alt="" className="w-25 col-span-1" />
-    <img src={img} alt="" className="w-25 col-span-1" />
-    <img src={img} alt="" className="w-25 col-span-1" />
-    <img src={img} alt="" className="w-25 col-span-1" />
-    <img src={img} alt="" className="w-25 col-span-1" />
-    <img src={img} alt="" className="w-25 col-span-1" />
-    </div>
-
-    </div>
+ 
 </div>
         </div>
     </div>

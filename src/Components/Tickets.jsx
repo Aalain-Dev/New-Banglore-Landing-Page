@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Tickets = () => {
   return (
  <div className="mt-10">
@@ -20,9 +19,11 @@ const Tickets = () => {
        <div className="flex rounded-tr-[10px] h-50 rounded-tl-[10px] bg-blue-add justify-center items-center    ">
        <h2 className="text-3xl font-bold text-white  "> ATTENDEES </h2>
        </div>
-        {/* <img src="/your-image-path/company.png" alt="Company Badge" className="mx-auto w-16 my-2" /> */}
+       
    <div className="flex items-center justify-center gap-10 mt-10">
+
    <div className="flex flex-col items-center justify-center  ">
+
       <p className="text-xl font-bold blue-color">Sale Price</p>
       <p className="xl:text-4xl font-bold blue-color">₹4,999</p>
       </div>
@@ -42,29 +43,60 @@ const Tickets = () => {
   <div className="p-5">
   <ul className="text-sm space-y-3  ">
   <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Identified as Investor
+  <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="blue-color font-bold mr-2">        Identified as Investor
+        </span>
       </li>
       <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Full Day Access Pass
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="blue-color font-bold mr-2">        Full Day Access Pass
+        </span>
       </li>
       <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        3 Pitches, Panels, and Fireside Chats
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="blue-color font-bold mr-2">        3 Pitches, Panels, and Fireside Chats
+        </span>
       </li>
       <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Networking Lunch & Hi-Tea
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="blue-color font-bold mr-2">        Networking Lunch & Hi-Tea
+        </span>
       </li>
       <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Coffee Rave
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="blue-color font-bold mr-2">        Coffee Rave
+        </span>
       </li>
       <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Live Chat with Attendees
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="blue-color font-bold mr-2">        Live Chat with Attendees
+        </span>
       </li>
+      <li className="flex items-start text-lg blue-color">
+      <span className="text-white font-bold mr-2 bg-[#00000050] px-2 py-1 rounded">X</span>
+
+        <span className="text-[#00000050] font-bold mr-2">        Company Logo, Name and Description on Startup page.
+        </span>
+
+      </li>
+      <li className="flex items-start text-lg blue-color">
+      <span className="text-white font-bold mr-2 bg-[#00000050] px-2 py-1 rounded">X</span>
+
+        <span className="text-[#00000050] font-bold mr-2">        Access to Investor’s Lounge
+        </span>
+        </li>
+        <li className="flex items-start text-lg blue-color">
+      <span className="text-white font-bold mr-2 bg-[#00000050] px-2 py-1 rounded">X</span>
+          
+        <span className="text-[#00000050] font-bold mr-2 ">        Speed Dating with Investors
+        </span>
+        </li>
       </ul>
       <button className="light-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-blue-add ">
         BUY NOW
@@ -107,24 +139,57 @@ const Tickets = () => {
   <div className="p-5">
   <ul className="text-sm space-y-3  ">
   <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Identified as a Super Startup Founder
+        <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+        <span className="red-color font-bold mr-2 ">        Identified as a Super Startup Founder
+</span>
       </li>
       <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Full Day Access Pass
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="red-color font-bold mr-2">        Full Day Access Pass
+        </span>
         </li>
       <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Company Logo, Name and Description on Startup page.
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="red-color font-bold mr-2">Company Logo, Name and Description on Startup page.</span>
+        
       </li>
       <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Access to Investor’s Lounge
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="red-color font-bold mr-2">        Access to Investor’s Lounge
+        </span>
       </li>
       <li className="flex items-start text-lg blue-color">
-        <span className="blue-color font-bold mr-2">✔</span>
-        Speed Dating with Investors
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="red-color font-bold mr-2">        Speed Dating with Investors
+        </span>
+      </li>
+      <li className="flex items-start text-lg blue-color">
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="red-color font-bold mr-2">        3 Pitches, Panels, and Fireside Chats
+        </span>
+      </li>
+      <li className="flex items-start text-lg blue-color">
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="red-color font-bold mr-2">        Networking Lunch & Hi-Tea
+        </span>
+      </li>
+      <li className="flex items-start text-lg blue-color">
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+
+        <span className="red-color font-bold mr-2">        Coffee Rave
+        </span>
+      </li>
+      <li className="flex items-start text-lg blue-color">
+      <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
+        
+        <span className="red-color font-bold mr-2">        Live Chat with Attendees
+        </span>
       </li>
       </ul>
       <a className="inline-block text-center dark-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-red-add">
