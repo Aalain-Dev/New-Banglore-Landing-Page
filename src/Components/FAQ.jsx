@@ -22,6 +22,18 @@ const faqss = [
     question: "Can I speak or propose a speaker for Capital Connect?",
     answer: "We are always looking for interesting speakers and talks for our line-up. If you have someone in mind or would like to nominate a suggestion, please fill reach out with Khushi@bizdateup.com",
   },
+  {
+    question: "Where is the Event venue?",
+    answer: "ICB INDIAN CRAFT BREWERY - Sy no 90/3, K, 572/90, Outer Ring Rd, beside Manhpo Convention Center, DadaMastan Layout, Manayata Tech Park, Nagawara, Bengaluru, Karnataka 560045",
+  },
+  {
+    question: "Can I transfer my ticket to another person?",
+    answer: "You may re-assign your ticket up to 48 hours before the event by contacting Khushi@bizdateup.com",
+  },
+  {
+    question: "Can I get a refund if I am not able to attend?",
+    answer: " Refunds are not allowed",
+  },
 ];
 const faqs = [
   {
@@ -104,7 +116,7 @@ export default function FAQ() {
           onClick={() => toggle(index)}
         >
           <div className="flex justify-between items-center">
-            <h3 className="text-[1.25rem] font-medium">{faq.question}</h3>
+            <h3 className="text-[1.25rem] font-medium capitalize">{faq.question}</h3>
             <ChevronDown
               className={`w-5 h-5 transform transition-transform duration-300 ${
                 activeIndex === index ? "rotate-180 -translate-x-1" : ""
