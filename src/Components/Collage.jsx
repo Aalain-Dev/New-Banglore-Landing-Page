@@ -11,6 +11,11 @@ import three from"../assets/Collage/three.JPG"
 import four from"../assets/Collage/four.JPG"
 import five from"../assets/Collage/fice.JPG"
 import hey from"../assets/Collage/hey.JPG"
+import comp1 from"../assets/Collage/comp-1.jpg"
+import comp2 from"../assets/Collage/comp-2.jpg"
+import comp3 from"../assets/Collage/comp-3.jpg"
+import comp4 from"../assets/Collage/comp-4.jpg"
+import comp5 from"../assets/Collage/comp-5.jpg"
 const Collage = () => {
   return (
 
@@ -19,27 +24,27 @@ const Collage = () => {
   <div className="">
     <img src={one} className="w-full h-full object-cover mx-auto" alt="img1" />
   </div>
-
-  <div className="">
-    <img src={img3} className="w-full h-full object-cover" alt="img2" />
-  </div>
-
   <div className="">
     <img src={three} className="w-full h-full object-cover" alt="img3" />
   </div>
+  <div className="">
+    <img src={comp1} className="w-full h-full object-cover" alt="img2" />
+  </div>
+
+  
   <div className="">
     <img src={four} className="w-full h-full object-cover mx-auto" alt="img1" />
   </div>
 
   <div className="">
-    <img src={hey} className="w-full h-full object-cover" alt="img2" />
+    <img src={comp2} className="w-full h-full object-cover" alt="img2" />
   </div>
 
 
 </div>
 <div className="grid grid-cols-1 xl:grid-cols-5 ">
 <div className="">
-    <img src={img5} className="w-full h-full object-cover" alt="img2" />
+    <img src={comp5} className="w-full h-full object-cover" alt="img2" />
   </div>
   <div className="">
     <img src={img4} className="w-full h-full object-cover mx-auto" alt="img1" />
@@ -48,7 +53,7 @@ const Collage = () => {
     <img src={two} className="w-full h-full object-cover" alt="img3" />
   </div>
   <div className="">
-    <img src={img2} className="w-full h-full object-cover" alt="img2" />
+    <img src={comp4} className="w-full h-full object-cover" alt="img2" />
   </div>
 
   <div className="">
