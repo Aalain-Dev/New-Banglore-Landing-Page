@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
+import BlinkingBanner from './BlinkingBanner'
 const Tickets = () => {
+  const [color, setcolor] = useState("#211F52")
   return (
  <div className="mt-10">
     <div className="container">
@@ -16,10 +18,11 @@ const Tickets = () => {
  </div>
     <div className="w-full xl:w-[500px] border-2 border-[#211F52] rounded-xl  bg-white shadow-lg pb-2">
       <div className="text-center mb-4 ">
-       <div className="flex rounded-tr-[10px] h-50 rounded-tl-[10px] bg-blue-add justify-center items-center    ">
+       <div className="flex rounded-tr-[10px] flex-col h-50 rounded-tl-[10px] bg-blue-add justify-center items-center    ">
        <h2 className="text-3xl font-bold text-white  "> ATTENDEES </h2>
+       <BlinkingBanner/>
+
        </div>
-       
    <div className="flex items-center justify-center gap-10 mt-10">
 
    <div className="flex flex-col items-center justify-center  ">
@@ -114,8 +117,9 @@ const Tickets = () => {
  </div>
     <div className="w-full xl:w-[500px] border-2 border-[#FC466B] rounded-xl  bg-white shadow-lg pb-2">
       <div className="text-center mb-4 ">
-       <div className="flex rounded-tr-[10px] h-50 rounded-tl-[10px] dark-blue-bg justify-center items-center  bg-red-add  ">
+       <div className="flex flex-col rounded-tr-[10px] h-50 rounded-tl-[10px] dark-blue-bg justify-center items-center  bg-red-add  ">
        <h2 className="text-3xl font-bold text-white uppercase ">Startups </h2>
+       <BlinkingBanner/>
        </div>
         {/* <img src="/your-image-path/company.png" alt="Company Badge" className="mx-auto w-16 my-2" /> */}
    <div className="flex items-center justify-center gap-10 mt-10">
