@@ -153,3 +153,15 @@ transition: 0.5s linear;
         display: block  ;
     }
 }
+.video-btn-text{
+    display: inline-block;
+    padding: 4px 16px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6px);
+    font-weight: bold;
+    line-height: 42px;
+    margin: 6px 0px 6px 10px;
+}

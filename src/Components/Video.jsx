@@ -4,6 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import star from "../assets/Bannner-Top/star.svg"
 import Icon_Slider from './Icon_Slider';
+import ChangingWordText from './ChangingWordText';
 const Video = () => {
   return (
     <>
@@ -16,7 +17,7 @@ const Video = () => {
 </h1>
           <h1  className = "xl:text-9xl text-white">BANGALORE</h1>
           <h1 className="xl:text-2xl  font-bold mb-4 text-center">
-            <TypeAnimation
+            {/* <TypeAnimation
               sequence={[
                 'A curated, high-voltage day right in the middle of India’s startup capital where startups pitch',
                 1000,
@@ -29,7 +30,8 @@ const Video = () => {
               speed={50}
               repeat={Infinity}
               className=""
-            />
+            /> */}
+            <ChangingWordText/>
           </h1>
           <a href ="" className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-90 ">
             Buy Tickets
