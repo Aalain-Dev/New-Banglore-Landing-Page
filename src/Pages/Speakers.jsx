@@ -6,6 +6,7 @@ import Speakers from '../Components/Speakers'
 import BE_A_SPEAKER from '../Components/BE_A_SPEAKER'
 import Timer from '../Components/Timer'
 import ScheduleTable from '../Components/ScheduleTable'
+import PlusSection from '../Components/PlusSection'
 
 const Speakers_Main = () => {
   const data = [
@@ -27,6 +28,7 @@ const Speakers_Main = () => {
 <Speakers_Banner data = {data}/>
 <Speakers/>
 <ScheduleTable/>
+<PlusSection/>
 <BE_A_SPEAKER />
 <Footer/>
 <Timer/>
