@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Formik, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import img from "../assets/Update/img.avif";
-
+import { useNavigate } from 'react-router-dom';
 // Form validation schema
 const validationSchema = Yup.object({
   name: Yup.string().required('Name is required'),
@@ -10,6 +10,12 @@ const validationSchema = Yup.object({
 });
 
 const Update = () => {
+  const navigate = useNavigate();
+  const [inputValue, setInputValue] = useState('');
+
+  const handleChangeValue = () => {
+    setInputValue('https://mediumblue-stinkbug-266785.hostingersite.com/thanks');
+  };
   return (
     <div
       className="bg py-20 px-4 text-white h-[500px] relative z-1"
@@ -39,7 +45,7 @@ const Update = () => {
               className="mt-8 space-y-4"
             >
             
-              <input type="hidden" name="_next" value="https://levelup.bizdateup.com/" />
+              <input type="hidden" name="_next"  value={inputValue} />
             
               <div className="flex flex-col items-center gap-4 justify-center">
                 <div className="w-full sm:w-1/3">
