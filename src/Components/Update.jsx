@@ -11,7 +11,7 @@ const validationSchema = Yup.object({
 
 const Update = () => {
   const navigate = useNavigate();
-  const [inputValue, setInputValue] = useState('https://mediumblue-stinkbug-266785.hostingersite.com/thanks');
+  const [inputValue, setInputValue] = useState('https://capitalconnect.bizdateup.com/thanks');
 
   const handleChangeValue = () => {
     setInputValue('');
@@ -40,13 +40,15 @@ const Update = () => {
         >
           {({ isValid }) => (
             <form
-              action="https://formsubmit.co/aalain@bizdateup.com"
+              action="https://formsubmit.co/aakash.goswami@bizdateup.com"
               method="POST"
               className="mt-8 space-y-4"
             >
             
               <input type="hidden" name="_next"  value={inputValue} />
-            
+              <input type="hidden" name="_subject" value="New submission! For Banglore Landing Page" />
+              <input type="hidden" name="_cc" value="aalain@bizdateup.com" />
+              <input type="hidden" name="_captcha" value="false" />
               <div className="flex flex-col items-center gap-4 justify-center">
                 <div className="w-full sm:w-1/3">
                   <Field

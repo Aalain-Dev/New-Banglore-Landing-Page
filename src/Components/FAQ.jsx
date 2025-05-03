@@ -20,7 +20,7 @@ const faqss = [
   },
   {
     question: "Can I speak or propose a speaker for Capital Connect?",
-    answer: "We are always looking for interesting speakers and talks for our line-up. If you have someone in mind or would like to nominate a suggestion, please fill reach out with Khushi@bizdateup.com",
+    answer: "We are always looking for interesting speakers and talks for our line-up. If you have someone in mind or would like to nominate a suggestion, please  reach out with Khushi@bizdateup.com",
   },
   {
     question: "Where is the Event venue?",
