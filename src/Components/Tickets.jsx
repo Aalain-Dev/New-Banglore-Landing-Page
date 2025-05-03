@@ -111,7 +111,8 @@ const Tickets = () => {
     {/* Company Card */}
         
     <div className="flex flex-col justify-center items-center">
- <div className="line-wrapper  border-[#FC466B] border-2 xl:w-[500px] w-full pb-10 mb-5 flex justify-center">
+ 
+ <div className="   line-wrapper border-[#FC466B] border-2 xl:w-[500px] w-full pb-10 mb-5 flex justify-center">
     
  <div className="dark-blue-bg z-10 text-white px-3 py-1 rounded-full xl:text-xl font-semibold inline-block mb-5 line absolute top-[-20px] bg-red-add  uppercase">FOR Startups</div>
  </div>

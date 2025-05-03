@@ -52,7 +52,7 @@ const data = [
        {
         data.map((item,index)=>{
             return(
-                <div className="flex xl:flex-col lg:flex-col  md:flex-col flex-row items-center  gap-5">
+                <div className="flex xl:flex-col lg:flex-col flex-col   items-center  gap-5">
                 <img src={item.img} alt="" className='w-20' />
                 <p className='text-white   xl:text-[1.2rem] font-bold xl:text-center lg:text-center text-left' >{item.title}
     </p>
