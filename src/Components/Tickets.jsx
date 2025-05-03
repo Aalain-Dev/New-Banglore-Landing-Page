@@ -7,7 +7,7 @@ const Tickets = () => {
     <div className="container">
 <h1 className='text-center  font-bold blue-color similar-head-buy-ticket '>Buy Tickets</h1>
 
-<p className='text-center xl:text-2xl font-semibold mt-5 xl:mb-20 text-black'>Your ticket is the key to all Affiliate World has to offer – exhibition, stage, and networking events.
+<p className='text-center xl:text-2xl font-semibold mt-5 xl:mb-20 text-black'>Your ticket is the key to all Capital Connect has to offer – pitches, panels and networking events.
 
 </p>
        <div className="flex flex-col md:flex-row gap-10 justify-center items-start py-10 ">

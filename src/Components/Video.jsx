@@ -12,7 +12,7 @@ const Video = () => {
 <video src={video} autoPlay muted loop className="w-full h-full object-cover" ></video>
         <div className=" absolute bg-[#00000073] top-0 w-full flex justify-center text-white font-bold text-2xl h-full flex-col z-10 gap-0">
           <div className="flex flex-col justify-center items-center gap-10">
-          <h1 className = "xl:text-3xl text-[20px] uppercase font-semibold">CAPITAL CONNECT 
+          <h1 className = "xl:text-3xl text-[20px] uppercase font-semibold mt-20">CAPITAL CONNECT 
 
 </h1>
           <h1  className = "xl:text-9xl text-white">BANGALORE</h1>

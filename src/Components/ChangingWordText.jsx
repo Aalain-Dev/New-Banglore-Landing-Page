@@ -15,7 +15,7 @@ const ChangingWordText = () => {
   return (
     <div className="text-center p-4">
       <p className="text-lg">
-      The largest meeting place for the world's top Ecommerce Marketer A curated, high-voltage day right in the middle of India’s startup capital where 
+       A curated, high-voltage day right in the middle of India’s startup capital where 
       <span className="video-btn-text uppercase mx-2">{words[currentWordIndex]}</span>
       </p>
     </div>

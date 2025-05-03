@@ -58,12 +58,12 @@ const Speakers = () => {
     <div className="mt-10">
       <div className="container">
         <h1 className='text-center  mt-10 similar-head font-bold blue-color mt-5 xl:mt-10 mb-10'>
-          UPCOMING & PAST SPEAKERS AT AFFILIATE WORLD
+          UPCOMING & PAST SPEAKERS AT BizDateUp
         </h1>
         <div className="w-24 h-1 bg-blue-400 mx-auto mt-2"></div>
 
         {/* card Code */}
-        <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-2 place-items-center mt-10 gap-10">
+        {/* <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-2 place-items-center mt-10 gap-10">
           {data.map((person) => (
             <div
               key={person.id}
@@ -76,26 +76,40 @@ const Speakers = () => {
                   alt={person.name}
                   className="w-70 transform transition-transform duration-300 hover:scale-110"
                 />
-                {/* Hover effect for "More Info" text */}
                 <div className="absolute bottom-2 right-2 z-10 bg-white p-2 rounded font-bold text-[14px] opacity-0 group-hover:opacity-100 transition-all duration-300">
                   More Info
                 </div>
               </div>
 
               <div className="flex flex-col justify-center items-center gap-2 text-center">
-                {/* Name */}
                 <p className="xl:text-[1.25rem] lg:text-[1.20rem] text-[1rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
                   {person.name}
                 </p>
 
-                {/* Title */}
                 <p className="xl:text-[0.85rem] lg:text-[0.75rem] font-bold text-[0.8rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">
                   {person.title}
                 </p>
 
-                {/* Logo */}
                 <img src={person.logo} alt="logo" className="xl:w-25 w-20" />
               </div>
+            </div>
+          ))}
+        </div> */}
+         <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-2 place-items-center mt-10 gap-10">
+          {data.map((person) => (
+            <div
+              key={person.id}
+              // onClick={() => openSidebar(person)}
+              className="col-span-1 w-full"
+            >
+   <div className="flex flex-col items-center justify-center bg-white/30 backdrop-blur-lg rounded-lg shadow-lg h-64 w-full p-6">
+  <p className="blue-color text-2xl font-semibold">Coming Soon</p>
+</div>
+
+
+
+
+            
             </div>
           ))}
         </div>
