@@ -5,6 +5,7 @@
   import Speakers_Main from './Pages/Speakers'
   import Exhibitors from './Pages/Exhibitors'
   import Featured_Companies from './Pages/Featured_Companies'
+import Thanks from './Components/Thanks'
 
   function App() {
 
@@ -15,6 +16,7 @@
           <Route path="/speakers-events-schedule" element ={<Speakers_Main/>} />
           <Route path="/exhibitors" element ={<Exhibitors/>} />
           <Route path="/featured-companies" element ={<Featured_Companies/>} />
+          <Route path="/thanks" element ={<Thanks/>} />
       
         </Routes>
 

@@ -38,11 +38,9 @@ const Update = () => {
               method="POST"
               className="mt-8 space-y-4"
             >
-              {/* To prevent spam */}
-              <input type="hidden" name="_captcha" value="false" />
-              {/* Optional success redirect */}
-              <input type="hidden" name="_next" value="https://yourdomain.com/thank-you" />
-
+            
+              <input type="hidden" name="_next" value="https://levelup.bizdateup.com/" />
+            
               <div className="flex flex-col items-center gap-4 justify-center">
                 <div className="w-full sm:w-1/3">
                   <Field

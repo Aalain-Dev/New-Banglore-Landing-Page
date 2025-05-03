@@ -13,6 +13,7 @@ import FAQ from '../Components/FAQ'
 import Update from '../Components/Update'
 import Footer from '../Components/Footer'
 import Timer from '../Components/Timer'
+import Thanks from '../Components/Thanks'
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
 <Update/>
 <Footer/>
 <Timer/>
+{/* <Thanks/> */}
 </>
   )
 }
