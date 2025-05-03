@@ -11,10 +11,10 @@ const validationSchema = Yup.object({
 
 const Update = () => {
   const navigate = useNavigate();
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState('https://mediumblue-stinkbug-266785.hostingersite.com/thanks');
 
   const handleChangeValue = () => {
-    setInputValue('https://mediumblue-stinkbug-266785.hostingersite.com/thanks');
+    setInputValue('');
   };
   return (
     <div
