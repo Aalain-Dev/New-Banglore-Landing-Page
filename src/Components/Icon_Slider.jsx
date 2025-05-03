@@ -37,7 +37,7 @@ const Icon_Slider = () => {
 
   return (
     <>
-      <marquee behavior="" direction="" className="mb-0 absolute bottom-[10px]">
+      <marquee behavior="" direction="" className="mb-0 absolute bottom-[10px] ">
         <div className="flex">
           {data.map((item, index) => {
             return (

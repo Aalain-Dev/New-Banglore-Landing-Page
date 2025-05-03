@@ -8,7 +8,7 @@ import ChangingWordText from './ChangingWordText';
 const Video = () => {
   return (
     <>
-      <div className="relative w-full h-[700px] bg-red-600">
+      <div className="relative w-full h-[770px] bg-red-600">
 <video src={video} autoPlay muted loop className="w-full h-full object-cover" ></video>
         <div className=" absolute bg-[#00000073] top-0 w-full flex justify-center text-white font-bold text-2xl h-full flex-col z-10 gap-0">
           <div className="flex flex-col justify-center items-center gap-10">
