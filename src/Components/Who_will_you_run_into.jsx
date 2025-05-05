@@ -1,37 +1,35 @@
 import React from 'react'
-import image from "../assets/Who will you run into/image.jpg"
-import img1 from "../assets/Who will you run into/img-one.svg"
-import img2 from "../assets/Who will you run into/img-two.svg"
-import img3 from "../assets/Who will you run into/img-three.svg"
-import img4 from "../assets/Who will you run into/img-four.svg"
-import img5 from "../assets/Who will you run into/img-five.svg"
-import img from "../assets/Who will you run into/meta.png"
+import angel_investor from "../assets/Who will you run into/Angel-Investor.png"
+import angel_platform from "../assets/Who will you run into/Angel-Platforms.png"
+import incubators from "../assets/Who will you run into/Incubators.png"
+import mentors from "../assets/Who will you run into/Mentors.png"
+import Vc_funds from "../assets/Who will you run into/Vc Funds.png"
 const Who_will_you_run_into = () => {
 
 const data = [
     {
         id:1,
-        img:img1,
+        img:Vc_funds,
         title:"Vc Funds ",
     },
     {
         id:2,
-        img:img2,
+        img:angel_platform,
         title:" Angel Platforms",
     },
     {
         id:3,
-        img:img3,
+        img:incubators,
         title:"Incubators",
     },
     {
         id:4,
-        img:img4,
+        img:mentors,
         title:"Mentors",
     },
     {
         id:5,
-        img:img5,
+        img:angel_investor,
         title: "Angel Investor",
     }
 ]
@@ -53,7 +51,7 @@ const data = [
         data.map((item,index)=>{
             return(
                 <div className="flex xl:flex-col lg:flex-col flex-col   items-center  gap-5">
-                <img src={item.img} alt="" className='w-20' />
+                <img src={item.img} alt="" className='w-40' />
                 <p className='text-white   xl:text-[1.2rem] font-bold xl:text-center lg:text-center text-left' >{item.title}
     </p>
             </div>
