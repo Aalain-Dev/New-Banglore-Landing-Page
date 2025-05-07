@@ -11,7 +11,7 @@ const Video = () => {
     <>
       <div className="relative w-full h-[770px] bg-red-600">
 <video src={video} autoPlay muted loop className="w-full h-full object-cover" ></video>
-        <div className=" absolute bg-[#00000073] top-0 w-full flex justify-center text-white font-bold text-2xl h-full flex-col z-10 gap-0">
+        <div className=" absolute  top-0 w-full flex justify-center text-white font-bold text-2xl h-full flex-col z-3 gap-0">
           <div className="flex flex-col justify-center items-center gap-10">
           <h1 className = "xl:text-5xl text-[30px] uppercase font-semibold mt-20 mb-[-20px]">CAPITAL CONNECT 
 
@@ -34,7 +34,7 @@ const Video = () => {
             /> */}
             <ChangingWordText/>
           </h1>
-          <a href ="" className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-90 ">
+          <a href ="" className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-90 ">
             Buy Tickets
           </a>
         <p className='flex gap-2 bg-[#bdb7b750] px-3 py-3  items-center rounded-2xl xl:text-xl text-lg xl:flex-row lg:flex-row flex-col'><img src= {star} className='w-40'/> 4.9 Google Review</p>

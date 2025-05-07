@@ -6,7 +6,7 @@ const Venue = () => {
     {/* Vidhana Soudha */}
       <div className="mt-10 h-[450px] w-full mx-auto relative  z-1
 " style={{backgroundImage: `url(${back_img})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
-  <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 z-[-2]"></div>
+  <div className="absolute top-0 left-0 w-full h-full bg-[#000000a3] opacity-70 z-[-2]"></div>
 <div className="container " style={{zIndex: '100000'}}>
 <div className="flex flex-col justify-center items-center h-full pt-30">
 <h1 className='text-center text-white xl:text-[2.5rem] text-[2.5rem] font-bold'>THE VENUE

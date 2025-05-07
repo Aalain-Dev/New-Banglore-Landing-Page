@@ -41,7 +41,7 @@ const BE_A_SPEAKER = () => {
       {/* Modal Form Popup */}
       {showForm && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#00000082] bg-opacity-50">
-          <div className="bg-white rounded-xl shadow-lg p-6 w-full xl:w-4xl relative">
+          <div className="bg-white rounded-xl shadow-lg p-6 w-full xl:w-4xl relative z-10">
             <p className='text-left text-[25px] mb-5 font-bold'>Please Fill Out The Form</p>
 
             {/* Close Button */}
@@ -55,7 +55,7 @@ const BE_A_SPEAKER = () => {
             <form
               action="https://formsubmit.co/aakash.goswami@bizdateup.com"
               method="POST"
-              className="space-y-4"
+              className="space-y-4 z-1000"
             >
               <input type="hidden" name="_subject" value="New submission! For Banglore Speakers Page" />
               <input type="hidden" name="_cc" value="aalain@bizdateup.com" />
@@ -82,7 +82,6 @@ const BE_A_SPEAKER = () => {
                 />
               </div>
 
-              {/* Mobile Number */}
               <div>
                 <label className="block mb-1 font-medium">Mobile</label>
                 <input
@@ -94,14 +93,23 @@ const BE_A_SPEAKER = () => {
                 />
               </div>
 
-              {/* Dropdown - Describes You Best */}
-            
-
               <div>
                 <label className="block mb-1 font-medium">Company Name</label>
                 <input
                   type="text"
                   name="company"
+                  required
+                  className="w-full border px-3 py-2 rounded"
+                />
+              </div>
+
+              {/* LinkedIn Profile Field */}
+              <div>
+                <label className="block mb-1 font-medium">LinkedIn Profile</label>
+                <input
+                  type="url"
+                  name="linkedin"
+                  placeholder="https://linkedin.com/in/your-profile"
                   required
                   className="w-full border px-3 py-2 rounded"
                 />
@@ -117,6 +125,7 @@ const BE_A_SPEAKER = () => {
                   <option value="">Select an option</option>
                   <option value="VC">VC</option>
                   <option value="Angel Investor">Angel Investor</option>
+                  <option value="Startup Founder">Startup Founder</option>
                 </select>
               </div>
 

@@ -31,11 +31,11 @@ const Navbar = () => {
                   Featured Companies
                 </button>
               </Link>
-              <a href="" className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-60">
+              <a href="" className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-60">
                 Buy Tickets
               </a>
               <Link to="/exhibitors">
-                <p className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-60">
+                <p className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-60">
                 Exhibitors
                 </p>
               </Link>

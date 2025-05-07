@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const ChangingWordText = () => {
-  const words = ['startup’s pitch', 'Investor’s scout', 'leaders connect', 'VCs Fund',];
+  const words = ['STARTUP’s PITCH', 'INVESTOR’s SCOUT', 'LEADERS CONNECT', `VC's Fund`,];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ const ChangingWordText = () => {
     <div className="text-center p-4">
       <p className="text-lg">
        A curated, high-voltage day right in the middle of India’s startup capital where 
-      <span className="video-btn-text uppercase mx-2">{words[currentWordIndex]}</span>
+      <span className="video-btn-text  mx-2">{words[currentWordIndex]}</span>
       </p>
     </div>
   );

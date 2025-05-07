@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { Formik, Field, ErrorMessage } from "formik";
 
 const Exhibitors_Form = () => {
-  const [inputValue, setInputValue] = useState(
-    "https://capitalconnect.bizdateup.com/thanks"
-  );
+  const [inputValue, setInputValue] = useState("https://capitalconnect.bizdateup.com/thanks");
 
   return (
     <>
@@ -49,7 +47,7 @@ const Exhibitors_Form = () => {
         >
           {() => (
             <form
-              className="space-y-4"
+              className="space-y-4 z-1000"
               action="https://formsubmit.co/aakash.goswami@bizdateup.com"
               method="POST"
             >
@@ -71,7 +69,7 @@ const Exhibitors_Form = () => {
                   type="text"
                   name="name"
                   required
-                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 "
                 />
                 <ErrorMessage
                   name="name"
@@ -89,7 +87,7 @@ const Exhibitors_Form = () => {
                   type="email"
                   name="email"
                   required
-                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 "
                 />
                 <ErrorMessage
                   name="email"
@@ -108,7 +106,7 @@ const Exhibitors_Form = () => {
                   name="mobile"
                   required
                   pattern="[0-9]{10}"
-                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 "
                 />
                 <ErrorMessage
                   name="mobile"
@@ -126,7 +124,7 @@ const Exhibitors_Form = () => {
                   type="text"
                   name="company"
                   required
-                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 "
                 />
                 <ErrorMessage
                   name="company"
@@ -147,11 +145,11 @@ const Exhibitors_Form = () => {
                   as="select"
                   name="partnership"
                   required
-                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none cursor-pointer focus:ring-2 "
                 >
                   <option value="">Select</option>
-                  <option value="exhibitors">Exhibitors</option>
-                  <option value="sponsorship">Sponsorship</option>
+                  <option value="exhibitors" className="cursor-pointer">Exhibitors</option>
+                  <option value="sponsorship" className="cursor-pointer">Sponsorship</option>
                 </Field>
                 <ErrorMessage
                   name="partnership"

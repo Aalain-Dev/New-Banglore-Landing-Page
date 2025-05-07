@@ -9,7 +9,7 @@ const Featured_Companies = () => {
     const data = [
         {
             head:"FEATURED COMPANIES",
-            text:"Affiliate World Europe has a vibrant two-day exhibition. Explore opportunities that could change the game for your business."
+            text:"Capital Connect has a full day exhibition. Explore opportunities that could change the game for your business."
         }
       ]
   return (

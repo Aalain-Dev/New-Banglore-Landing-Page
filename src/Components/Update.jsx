@@ -80,7 +80,7 @@ const Update = () => {
 
                 <button
                   type="submit"
-                  className="uppercase pink-bg text-white text-center xl:text-[20px] px-3 py-3 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-70"
+                  className="uppercase pink-bg text-white text-center xl:text-[20px] px-3 py-3 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-70"
                   disabled={!isValid}
                 >
                   Subscribe
