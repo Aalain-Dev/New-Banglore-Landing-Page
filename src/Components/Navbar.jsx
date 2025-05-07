@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       {/* Desktop Navbar */}
-      <div className="bg-black fixed top-0 w-full z-50 xl:block hidden">
+      <div className="bg-[#211F52] fixed top-0 w-full z-50 xl:block hidden">
         <div className="container">
           <nav className="flex justify-between items-center px-5 py-5">
             <Link to="/">
@@ -22,12 +22,12 @@ const Navbar = () => {
             </Link>
             <div className="flex gap-2 items-center">
               <Link to="/speakers-events-schedule">
-                <button className="text-[16px] px-5 py-2 rounded-xl font-bold cursor-pointer text-white hover:bg-[#211F52] hover:text-white transition-all duration-300 ease-in-out hover:scale-105">
+                <button className="text-[16px] px-5 py-2 rounded-xl font-bold cursor-pointer text-white hover:bg-[#fff] hover:text-black transition-all duration-300 ease-in-out hover:scale-105">
                   Speakers & Event Schedule
                 </button>
               </Link>
               <Link to="/featured-companies">
-                <button className="text-[16px] px-5 py-2 rounded-xl font-bold cursor-pointer text-white hover:bg-[#211F52] hover:text-white transition-all duration-300 ease-in-out hover:scale-105">
+                <button className="text-[16px] px-5 py-2 rounded-xl font-bold cursor-pointer text-white hover:bg-[#fff] hover:text-black transition-all duration-300 ease-in-out hover:scale-105">
                   Featured Companies
                 </button>
               </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navbar */}
-      <div className="bg-black fixed top-0 w-full z-50 xl:hidden block">
+      <div className="bg-[#211F52] fixed top-0 w-full z-50 xl:hidden block">
         <div className="flex justify-between items-center px-5 py-4">
           <Link to="/">
             <img src={logo} alt="Logo" className="w-[150px]" />

@@ -28,7 +28,7 @@ const Speakers_Main = () => {
 <Speakers_Banner data = {data}/>
 <Speakers/>
 <ScheduleTable/>
-<PlusSection/>
+{/* <PlusSection/> */}
 <BE_A_SPEAKER />
 <Footer/>
 <Timer/>

@@ -2,7 +2,8 @@ import React from 'react';
 import video from ".././assets/Bannner-Top/banner-video.mp4";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
-import star from "../assets/Bannner-Top/star.svg"
+// import star from "../assets/Bannner-Top/star.svg"
+import star from "../assets/Bannner-Top/star.png"
 import Icon_Slider from './Icon_Slider';
 import ChangingWordText from './ChangingWordText';
 const Video = () => {
@@ -12,7 +13,7 @@ const Video = () => {
 <video src={video} autoPlay muted loop className="w-full h-full object-cover" ></video>
         <div className=" absolute bg-[#00000073] top-0 w-full flex justify-center text-white font-bold text-2xl h-full flex-col z-10 gap-0">
           <div className="flex flex-col justify-center items-center gap-10">
-          <h1 className = "xl:text-3xl text-[25x] uppercase font-semibold mt-20">CAPITAL CONNECT 
+          <h1 className = "xl:text-5xl text-[30px] uppercase font-semibold mt-20 mb-[-20px]">CAPITAL CONNECT 
 
 </h1>
           <h1  className = "xl:text-9xl text-white text-5xl">BANGALORE</h1>
@@ -36,10 +37,10 @@ const Video = () => {
           <a href ="" className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-90 ">
             Buy Tickets
           </a>
-        <p className='flex gap-2 bg-[#bdb7b750] px-3 py-3 rounded-2xl xl:text-xl text-lg xl:flex-row lg:flex-row flex-col'><img src= {star}/> 4.9 Google Review</p>
+        <p className='flex gap-2 bg-[#bdb7b750] px-3 py-3  items-center rounded-2xl xl:text-xl text-lg xl:flex-row lg:flex-row flex-col'><img src= {star} className='w-40'/> 4.9 Google Review</p>
           </div>
 
-        <Icon_Slider/>
+        {/* <Icon_Slider/> */}
         </div>
      
       </div>
