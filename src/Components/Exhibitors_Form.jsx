@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { Formik, Field, ErrorMessage } from "formik";
 
 const Exhibitors_Form = () => {
-      const [inputValue, setInputValue] = useState('https://capitalconnect.bizdateup.com/thanks');
-    
+  const [inputValue, setInputValue] = useState(
+    "https://capitalconnect.bizdateup.com/thanks"
+  );
+
   return (
     <>
       <h2 className="xl:text-4xl text-[30px] font-bold mb-6 text-center mt-10">
@@ -15,12 +17,14 @@ const Exhibitors_Form = () => {
           initialValues={{
             name: "",
             email: "",
+            mobile: "",
             company: "",
             partnership: "",
           }}
           validate={(values) => {
             const errors = {};
             if (!values.name) errors.name = "Name is Required";
+
             if (!values.email) {
               errors.email = "Email is Required";
             } else if (
@@ -28,8 +32,17 @@ const Exhibitors_Form = () => {
             ) {
               errors.email = "Invalid email address";
             }
+
+            if (!values.mobile) {
+              errors.mobile = "Mobile number is Required";
+            } else if (!/^\d{10}$/.test(values.mobile)) {
+              errors.mobile = "Mobile number must be 10 digits";
+            }
+
             if (!values.company) errors.company = "Company is Required";
-            if (!values.partnership) errors.partnership = "Partnership is Required";
+            if (!values.partnership)
+              errors.partnership = "Partnership is Required";
+
             return errors;
           }}
           onSubmit={() => {}}
@@ -45,17 +58,9 @@ const Exhibitors_Form = () => {
                 name="_subject"
                 value="New submission! For Exhibitors"
               />
-              <input
-                type="hidden"
-                name="_cc"
-                value="aalain@bizdateup.com"
-              />
-              <input
-                type="hidden"
-                name="_captcha"
-                value="false"
-              />
-              <input type="hidden" name="_next"  value={inputValue} />
+              <input type="hidden" name="_cc" value="aalain@bizdateup.com" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value={inputValue} />
 
               {/* Name */}
               <div>
@@ -93,6 +98,25 @@ const Exhibitors_Form = () => {
                 />
               </div>
 
+              {/* Mobile */}
+              <div>
+                <label className="block font-medium mb-1" htmlFor="mobile">
+                  Mobile Number
+                </label>
+                <Field
+                  type="tel"
+                  name="mobile"
+                  required
+                  pattern="[0-9]{10}"
+                  className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+                <ErrorMessage
+                  name="mobile"
+                  component="div"
+                  className="text-red-500 text-sm mt-1"
+                />
+              </div>
+
               {/* Company Name */}
               <div>
                 <label className="block font-medium mb-1" htmlFor="company">
@@ -113,7 +137,10 @@ const Exhibitors_Form = () => {
 
               {/* Partnership Type */}
               <div>
-                <label className="block font-medium mb-1" htmlFor="partnership">
+                <label
+                  className="block font-medium mb-1"
+                  htmlFor="partnership"
+                >
                   Partnership
                 </label>
                 <Field
@@ -137,7 +164,7 @@ const Exhibitors_Form = () => {
               <div className="text-center">
                 <button
                   type="submit"
-                  className="inline-block  uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full"
+                  className="inline-block uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full"
                 >
                   Submit
                 </button>

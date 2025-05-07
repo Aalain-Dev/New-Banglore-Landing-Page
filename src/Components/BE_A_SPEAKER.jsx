@@ -4,7 +4,7 @@ import mobile from "../assets/BE_A_Speaker/mobile.png";
 
 const BE_A_SPEAKER = () => {
   const [showForm, setShowForm] = useState(false);
-      const [inputValue, setInputValue] = useState('https://capitalconnect.bizdateup.com/thanks');
+  const [inputValue, setInputValue] = useState('https://capitalconnect.bizdateup.com/thanks');
 
   return (
     <>
@@ -41,9 +41,8 @@ const BE_A_SPEAKER = () => {
       {/* Modal Form Popup */}
       {showForm && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#00000082] bg-opacity-50">
-          <div className="bg-white rounded-xl shadow-lg p-6 w-full xl:w-4xl
- relative">
-        <p className='text-left text-[25px] mb-5 font-bold'>Please Fill Out The Form</p>
+          <div className="bg-white rounded-xl shadow-lg p-6 w-full xl:w-4xl relative">
+            <p className='text-left text-[25px] mb-5 font-bold'>Please Fill Out The Form</p>
 
             {/* Close Button */}
             <button
@@ -53,8 +52,6 @@ const BE_A_SPEAKER = () => {
               &times;
             </button>
 
-            {/* <h2 className="text-xl font-bold mb-4 text-center">Apply to Speak</h2> */}
-
             <form
               action="https://formsubmit.co/aakash.goswami@bizdateup.com"
               method="POST"
@@ -63,7 +60,7 @@ const BE_A_SPEAKER = () => {
               <input type="hidden" name="_subject" value="New submission! For Banglore Speakers Page" />
               <input type="hidden" name="_cc" value="aalain@bizdateup.com" />
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next"  value={inputValue} />
+              <input type="hidden" name="_next" value={inputValue} />
 
               <div>
                 <label className="block mb-1 font-medium">Name</label>
@@ -71,7 +68,7 @@ const BE_A_SPEAKER = () => {
                   type="text"
                   name="name"
                   required
-                  className="w-full border px-3 py-2 rounded  "
+                  className="w-full border px-3 py-2 rounded"
                 />
               </div>
 
@@ -81,28 +78,46 @@ const BE_A_SPEAKER = () => {
                   type="email"
                   name="email"
                   required
-                  className="w-full border px-3 py-2 rounded  "
+                  className="w-full border px-3 py-2 rounded"
                 />
               </div>
 
+              {/* Mobile Number */}
               <div>
-                <label className="block mb-1 font-medium">Company</label>
+                <label className="block mb-1 font-medium">Mobile</label>
+                <input
+                  type="tel"
+                  name="mobile"
+                  pattern="[0-9]{10}"
+                  required
+                  className="w-full border px-3 py-2 rounded"
+                />
+              </div>
+
+              {/* Dropdown - Describes You Best */}
+            
+
+              <div>
+                <label className="block mb-1 font-medium">Company Name</label>
                 <input
                   type="text"
                   name="company"
                   required
-                  className="w-full border px-3 py-2 rounded  "
+                  className="w-full border px-3 py-2 rounded"
                 />
               </div>
 
               <div>
-                <label className="block mb-1 font-medium">Topic</label>
-                <input
-                  type="text"
-                  name="topic"
+                <label className="block mb-1 font-medium">What describes you best?</label>
+                <select
+                  name="identity"
                   required
-                  className="w-full border px-3 py-2 rounded  "
-                />
+                  className="w-full border px-3 py-2 rounded"
+                >
+                  <option value="">Select an option</option>
+                  <option value="VC">VC</option>
+                  <option value="Angel Investor">Angel Investor</option>
+                </select>
               </div>
 
               <div className="text-center">
