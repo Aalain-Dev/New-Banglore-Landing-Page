@@ -31,7 +31,7 @@ It’s your <b>fast lane to funding, visibility, and scale</b>.
       </p>
     
      <div className="w-full">
-     <a href ="#" className="inline-block  uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full">
+     <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className="inline-block  uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full">
         BUY TICKETS
       </a>
      </div>

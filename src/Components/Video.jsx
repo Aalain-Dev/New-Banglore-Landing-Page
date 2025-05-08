@@ -34,13 +34,13 @@ const Video = () => {
             /> */}
             <ChangingWordText/>
           </h1>
-          <a href ="" className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-90 ">
+          <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-90 ">
             Buy Tickets
           </a>
         <p className='flex gap-2 bg-[#bdb7b750] px-3 py-3  items-center rounded-2xl xl:text-xl text-lg xl:flex-row lg:flex-row flex-col'><img src= {star} className='w-40'/> 4.9 Google Review</p>
           </div>
 
-        {/* <Icon_Slider/> */}
+        <Icon_Slider/>
         </div>
      
       </div>

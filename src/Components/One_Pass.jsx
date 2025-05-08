@@ -13,7 +13,7 @@ const One_Pass = () => {
           <span className="relative inline-block red-color">
             Full Day of Opportunities!
             {/* Z-shaped SVG underline */}
-            <svg
+            {/* <svg
               viewBox="0 0 100 20"
               preserveAspectRatio="none"
               className="absolute left-0 bottom-[-5px] w-full h-3"
@@ -24,7 +24,7 @@ const One_Pass = () => {
                 strokeWidth="2"
                 fill="transparent"
               />
-            </svg>
+            </svg> */}
           </span>
         </h1>
 

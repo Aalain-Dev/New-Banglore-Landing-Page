@@ -197,7 +197,7 @@ const Tickets = () => {
         </span>
       </li>
       </ul>
-      <a className="inline-block text-center dark-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-red-add">
+      <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className="inline-block text-center dark-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-red-add">
         BUY NOW
       </a>
   </div>
