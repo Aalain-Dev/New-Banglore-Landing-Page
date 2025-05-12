@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-import man from "../assets/Speakers/man-1.webp";
-import logo from "../assets/Speakers/inspire-logo.webp";
+import Amit_Singhal from "../assets/Speakers/Amit_Singhal.png";
+// import man from "../assets/Speakers/Amit_Singhal.png";
+// import logo from "../assets/Speakers/inspire-logo.webp";
+import Raveen_Sastry from "../assets/Speakers/Raveen Sastry.png";
+import fluid_ventures from "../assets/Speakers/fluid-ventures.png";
+import multiply_ventures from "../assets/Speakers/multiply_ventures.png";
 
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
@@ -9,39 +13,19 @@ const Speakers = () => {
   const data = [
     {
       id: 1,
-      name: "John Doe",
-      title: "CEO of Inspire",
-      image: man,
-      logo: logo,
+      name: "Amit Singhal",
+      title: "General Partner",
+      image: Amit_Singhal,
+      logo: fluid_ventures  , 
     },
     {
       id: 2,
-      name: "Emily Carter",
-      title: "Marketing Director, Inspire",
-      image: man,
-      logo: logo,
+      name: "Raveen Sastry",
+      title: "Founding Partner",
+      image: Raveen_Sastry,
+      logo: multiply_ventures,
     },
-    {
-      id: 3,
-      name: "Liam Johnson",
-      title: "Lead Developer, Inspire",
-      image: man,
-      logo: logo,
-    },
-    {
-      id: 4,
-      name: "Sophia Williams",
-      title: "UX Designer, Inspire",
-      image: man,
-      logo: logo,
-    },
-    {
-      id: 5,
-      name: "David Brownsss",
-      title: "Head of Sales, Inspire",
-      image: man,
-      logo: logo,
-    },
+   
   ];
 
   const openSidebar = (speaker) => {
@@ -63,43 +47,44 @@ const Speakers = () => {
         <div className="w-24 h-1 bg-blue-400 mx-auto mt-2"></div>
 
         {/* card Code */}
-        {/* <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-2 place-items-center mt-10 gap-10">
+      <div className="flex justify-center">
+  <div className="flex gap-10 mt-10 justify-center">
+    {data.map((person) => (
+      <div
+        key={person.id}
+        className="flex flex-col justify-center items-center cursor-pointer gap-5"
+      >
+        <div className="overflow-hidden rounded-lg relative group">
+          <img
+            src={person.image}
+            alt={person.name}
+            className="w-70 transform transition-transform duration-300 hover:scale-110"
+          />
+          {/* <div className="absolute bottom-2 right-2 z-10 bg-white p-2 rounded font-bold text-[14px] opacity-0 group-hover:opacity-100 transition-all duration-300">
+            More Info
+          </div> */}
+        </div>
+
+        <div className="flex flex-col justify-center items-center gap-2 text-center">
+          <p className="xl:text-[1.5rem] mt-3 lg:text-[1.20rem] text-[1rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
+            {person.name}
+          </p>
+
+          <p className="xl:text-[1rem] lg:text-[0.75rem] font-bold text-[0.8rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">
+            {person.title}
+          </p>
+
+          <img src={person.logo} alt="logo" className="xl:w-20 w-20" />
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+         {/* <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-2 place-items-center mt-10 gap-10">
           {data.map((person) => (
             <div
               key={person.id}
-              onClick={() => openSidebar(person)}
-              className="col-span-1 row-span justify-center items-center cursor-pointer gap-5"
-            >
-              <div className="overflow-hidden rounded-lg relative group">
-                <img
-                  src={person.image}
-                  alt={person.name}
-                  className="w-70 transform transition-transform duration-300 hover:scale-110"
-                />
-                <div className="absolute bottom-2 right-2 z-10 bg-white p-2 rounded font-bold text-[14px] opacity-0 group-hover:opacity-100 transition-all duration-300">
-                  More Info
-                </div>
-              </div>
-
-              <div className="flex flex-col justify-center items-center gap-2 text-center">
-                <p className="xl:text-[1.25rem] lg:text-[1.20rem] text-[1rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
-                  {person.name}
-                </p>
-
-                <p className="xl:text-[0.85rem] lg:text-[0.75rem] font-bold text-[0.8rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">
-                  {person.title}
-                </p>
-
-                <img src={person.logo} alt="logo" className="xl:w-25 w-20" />
-              </div>
-            </div>
-          ))}
-        </div> */}
-         <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-2 place-items-center mt-10 gap-10">
-          {data.map((person) => (
-            <div
-              key={person.id}
-              // onClick={() => openSidebar(person)}
               className="col-span-1 w-full"
             >
    <div className="flex flex-col items-center justify-center bg-white/30 backdrop-blur-lg rounded-lg shadow-lg h-64 w-full p-6">
@@ -112,7 +97,7 @@ const Speakers = () => {
             
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
 
       {/* Sidebar */}
