@@ -101,10 +101,13 @@ const Tickets = () => {
         </span>
         </li>
       </ul>
-      <button className="light-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-blue-add ">
+      <div className="flex">
+          <a href ="https://rzp.io/rzp/wjkq7sAP" target = "_blank" className=" text-center light-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-blue-add ">
         BUY NOW
-      </button>
+      </a>
+      </div>
   </div>
+
     </div>
     </div>
   
@@ -200,6 +203,7 @@ const Tickets = () => {
       <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className="inline-block text-center dark-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-red-add">
         BUY NOW
       </a>
+      
   </div>
     </div>
     </div>
