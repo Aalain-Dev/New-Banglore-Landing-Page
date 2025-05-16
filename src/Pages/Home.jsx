@@ -23,7 +23,9 @@ const Home = () => {
 <Performance_Strip/>
 <What_is_Event/>
 <Speakers/>
-<Tickets/>
+<div className="tickets">
+  <Tickets/>
+</div>
 <Who_will_you_run_into/>
 <One_Pass/>
 <Collage/>

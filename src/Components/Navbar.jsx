@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/Navbar/BizDateUp-logo.png";
 import logo2 from "../assets/Navbar/logo.svg";
 import "../App.css";
-
+import { Link as ScrollLink } from 'react-scroll';
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -31,9 +31,10 @@ const Navbar = () => {
                   Featured Companies
                 </button>
               </Link>
-              <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-60">
-                Buy Tickets
-              </a>
+          
+               <ScrollLink to="tickets" smooth={true} duration={500}   className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-60">
+        Buy Ticket
+      </ScrollLink>
               <Link to="/exhibitors">
                 <p className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-60">
                 Exhibitors
@@ -76,9 +77,12 @@ const Navbar = () => {
             {/* <a href="#" className="text-lg font-semibold" onClick={toggleSidebar}>Buy Tickets</a> */}
             <a href="https://www.bizdateup.com/privacypolicy"target='_blank' rel="noopener noreferrer"  className="text-lg font-semibold">Privacy Policy</a>
 
-            <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full">
+            {/* <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full">
                 Buy Tickets
-              </a>
+              </a> */}
+               <ScrollLink to="tickets" smooth={true} duration={500}   className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full">
+        Buy Ticket
+      </ScrollLink>
               <Link to="/exhibitors">
                 <p className="uppercase pink-bg text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-b-2 w-full">
                   Exhibitors

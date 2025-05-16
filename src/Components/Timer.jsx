@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { Link } from 'react-scroll';
 const Timer = () => {
   // Set your countdown target date
   const targetDate = new Date("2025-05-30T00:00:00").getTime();
@@ -58,9 +58,10 @@ const Timer = () => {
       </div>
        </div>
 
-      <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className="uppercase pink-bg xl:w-80 lg:w-80 md:w-80  w-full text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-2 ">
-        BUY TICKETS
-      </a>
+     
+       <Link to="tickets" smooth={true} duration={500}   className="uppercase pink-bg xl:w-80 lg:w-80 md:w-80  w-full text-white text-center xl:text-lg px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-2 ">
+        Buy Ticket
+      </Link>
     </div>
   );
 };

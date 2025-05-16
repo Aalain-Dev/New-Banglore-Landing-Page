@@ -2,6 +2,7 @@ import React from 'react';
 import video from ".././assets/Bannner-Top/banner-video.mp4";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
 // import star from "../assets/Bannner-Top/star.svg"
 import star from "../assets/Bannner-Top/star.png"
 import Icon_Slider from './Icon_Slider';
@@ -34,9 +35,12 @@ const Video = () => {
             /> */}
             <ChangingWordText/>
           </h1>
-          <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-90 ">
+          {/* <a href="https://rzp.io/rzp/sZ9BQwCl" target="_blank" className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-90 ">
             Buy Tickets
-          </a>
+          </a> */}
+          <Link to="tickets" smooth={true} duration={500}   className=" uppercase pink-bg text-white text-center xl:text-[20px] px-5 py-5 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-90 ">
+  Buy Ticket
+</Link>
         <p className='flex gap-2 bg-[#bdb7b750] px-3 py-3  items-center rounded-2xl xl:text-xl text-lg xl:flex-row lg:flex-row flex-col'><img src= {star} className='w-40'/> 4.9 Google Review</p>
           </div>
 
