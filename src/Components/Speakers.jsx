@@ -3,9 +3,9 @@ import Amit_Singhal from "../assets/Speakers/Amit_Singhal.png";
 // import man from "../assets/Speakers/Amit_Singhal.png";
 // import logo from "../assets/Speakers/inspire-logo.webp";
 import Raveen_Sastry from "../assets/Speakers/Raveen Sastry.png";
+import Tejasvi_Surya from "../assets/Speakers/Tejasvi Surya.png";
 import fluid_ventures from "../assets/Speakers/fluid-ventures.png";
 import multiply_ventures from "../assets/Speakers/multiply_ventures.png";
-import { a } from '@react-spring/web';
 
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
@@ -27,6 +27,13 @@ const Speakers = () => {
       image: Raveen_Sastry,
       logo: multiply_ventures,
       linkedin_profile: "https://www.linkedin.com/in/raveens/"
+    },
+      {
+      id: 3,
+      name: "Tejasvi Surya",
+      title: "Honorable Member of Parliament ",
+      image: Tejasvi_Surya,
+      linkedin_profile: "https://www.linkedin.com/in/tejasvi-surya"
     },
 
   ];
@@ -77,8 +84,9 @@ const Speakers = () => {
                   <p className="xl:text-[1rem] lg:text-[0.75rem] font-bold text-[0.8rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">
                     {person.title}
                   </p>
-
-                  <img src={person.logo} alt="logo" className="xl:w-20 w-20" />
+ {person.id !== 3 &&  (
+        <img src={person.logo} alt="logo" className="logo" />
+      )}
                 </div>
               </div>
             </a>
