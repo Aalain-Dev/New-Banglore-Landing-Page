@@ -52,7 +52,7 @@ const Speakers = () => {
     <div className="mt-10">
       <div className="container">
         <h1 className='text-center  mt-10 similar-head font-bold blue-color mt-5 xl:mt-10 mb-10'>
-          UPCOMING & PAST SPEAKERS AT BizDateUp
+          UPCOMING  SPEAKERS AT BizDateUp
         </h1>
         <div className="w-24 h-1 bg-blue-400 mx-auto mt-2"></div>
 
