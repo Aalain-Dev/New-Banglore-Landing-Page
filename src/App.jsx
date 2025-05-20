@@ -7,6 +7,7 @@
   import Featured_Companies from './Pages/Featured_Companies'
 import Thanks from './Components/Thanks'
 import Payment_Thanks from './Components/Payment_Thanks'
+import InvestorsPage from './Components/InvestorsPage'
 
   function App() {
 
@@ -14,6 +15,7 @@ import Payment_Thanks from './Components/Payment_Thanks'
   <>
   <Routes>
           <Route path="/" element ={<Home/>} />
+          <Route path="/investors" element ={<InvestorsPage/>} />
           <Route path="/speakers-events-schedule" element ={<Speakers_Main/>} />
           <Route path="/exhibitors" element ={<Exhibitors/>} />
           <Route path="/featured-companies" element ={<Featured_Companies/>} />
