@@ -14,12 +14,11 @@ const Investor_Footer = () => {
         {/* Links */}
         <div className="flex gap-6 text-sm mt-5 text-white/80 flex-wrap justify-between">
          <div className="flex gap-15" >
-             <a href="#" className="text-white transition">Privacy Policy</a>
-          <a href="#" className="text-white transition">Terms of Use</a>
-          <a href="#" className="text-white transition">Responsible Disclosure</a>
+             <a href="https://www.bizdateup.com/privacypolicy"  target= "_blank" className="text-white transition">Privacy Policy</a>
+          <a href="https://www.bizdateup.com/termsOfService" target= "_blank"  className="text-white transition">Terms of Use</a>
          </div>
             <div className="text-white text-center">
-          © Copyright 2025 MoEngage - All Rights Reserved
+          © Copyright 2025 BizDateUp - All Rights Reserved
         </div>
         </div>
 

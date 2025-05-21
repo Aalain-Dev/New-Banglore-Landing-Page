@@ -2,52 +2,52 @@ import React from 'react';
 
 const sessions = [
   {
-    time: '9:30 AM',
-    title: 'Registration & Pre-event networking',
+    time: '10:30 AM – 10:45 AM',
+    title: 'Opening Ceremony - Zone 1',
   },
   {
-    time: '10:30 AM',
-    title: 'Opening Keynote Session with Neelu Amber, Chief Growth Officer, Airtel',
+    time: '10:45 AM – 11:00 AM	',
+    title: 'Keynote Speech - Zone 1',
   },
   {
-    time: '11:00 AM',
-    title: 'MoEngage NEXT 2025',
+    time: '11:00 AM – 11:15 AM',
+    title: 'BizDateUp Introduction - Zone 1',
   },
   {
-    time: '11:40 AM',
-    title: 'Customer Growth Story - Policybazaar',
+    time: '11:15 AM – 11:45 AM',
+    title: 'Startup Live Pitch (1) - Zone 1',
   },
   {
-    time: '12:00 PM',
-    title: "Customer Spotlight - Powering LIC's Digital Transformation: An EY & MoEngage Partnership for Growth",
+    time: '11:45 AM – 12:45 PM',
+    title: "Panel Discussion (1) - Zone 1 + Speed Networking - Zone 3",
   },
   {
-    time: '12:20 PM',
-    title: 'Panel Discussion - Breaking the Funnel: Rethinking the Customer Lifecycle for a Connected World',
+    time: '12:45 PM – 1:45 PM',
+    title: 'Startup Live Pitches (2 & 3) - Zone 1',
   },
   {
-    time: '1:00 PM',
-    title: 'Lunch Break',
+    time: '1:45 PM – 2:30 PM	',
+    title: 'Lunch and Networking',
   },
   {
-    time: '2:00 PM',
-    title: 'Panel Discussion [Track 1] - Beyond the First Purchase: Building Loyalty in a Transaction-Driven World',
+    time: '2:30 PM – 3:00 PM',
+    title: 'Fireside Chat (1) - Zone 1',
   },
   {
-    time: '2:00 PM',
-    title: 'Panel Discussion [Track 2] - The Data Advantage in Financial Services: Leveraging Analytics for Personalized Customer Engagement and Loyalty',
+    time: '3:00 PM – 3:30 PM',
+    title: 'Panel Discussion (2)',
   },
   {
-    time: '2:40 PM',
-    title: "Panel Discussion [Track 1] - Bharat's Big Billions: Tapping into the Tier-2 (and 3) Consumption and Engagement Goldmine",
+    time: '3:30 PM – 4:00 PM	',
+    title: "Fireside Chat (2)",
   },
   {
-    time: '2:40 PM',
-    title: 'Panel Discussion [Track 2] - Personalization at Scale: Navigating the BFSI Customer Journey',
+    time: '4:00 PM – 4:30 PM	',
+    title: 'Closing Ceremony',
   },
    {
-    time: '2:40 PM',
-    title: 'Panel Discussion [Track 2] - Personalization at Scale: Navigating the BFSI Customer Journey',
+    time: '4:30 PM – 6:00 PM',
+    title: 'High Tea + Coffee Rave',
   },
 ];
 
@@ -60,7 +60,7 @@ const ConferenceAgenda = () => {
         <p className="text-gray-400">
           The sessions will cover a wide range of topics on engaging customers and driving growth
         </p>
-        <p className="text-lg mt-6 font-medium">Wednesday 28th May, 2025</p>
+        <p className="text-lg mt-6 font-medium">21st June, 2025</p>
       </div>
 
       {/* Timeline */}

@@ -5,7 +5,7 @@ const AssociationStats = () => {
     <div className="bg-blue-add text-white w-full flex flex-col lg:flex-row justify-between items-center">
       {/* Left: Association Logos */}
    <div className="container flex xl:flex-row flex-col ">
-       <div className="flex-1 w-full mb-10 lg:mb-0 border-r border-[#ffffff7e] px-6 py-12">
+       <div className="flex-1 w-full mb-10 lg:mb-0 border-r border-[#ffffff7e] px-6 py-10">
         <h2 className="text-lg font-light mb-6">In Association With</h2>
         <div className="flex flex-wrap items-center gap-8">
          <marquee behavior="" direction="" className = "flex ">
@@ -36,18 +36,18 @@ const AssociationStats = () => {
       </div>
 
       {/* Right: Stats */}
-      <div className="flex-1 w-full flex justify-around text-center  xl:px-6 p-1  xl:pt-20 pt-0 py-12">
+      <div className="flex-1 w-full flex justify-around text-center  xl:px-6 p-1  xl:pt-20 pt-0 py-10">
         <div>
-          <p className="xl:text-5xl text-4xl font-medium">18</p>
-          <p className="text-lg    mt-5 text-white">Countries</p>
+          <p className="xl:text-[2.5rem] text-4xl font-medium">350+</p>
+          <p className="text-lg    mt-5 text-white capitalize">attendees</p>
         </div>
         <div>
-          <p className="xl:text-5xl text-4xl font-medium">350</p>
-          <p className="text-lg    mt-5 text-white">Events</p>
+          <p className="xl:text-[2.5rem] text-4xl font-medium">100+</p>
+          <p className="text-lg    mt-5 text-white capitalize">angel investors</p>
         </div>
         <div>
-          <p className="xl:text-5xl text-4xl font-medium">25k+</p>
-          <p className="text-lg    mt-5 text-white">Participants</p>
+          <p className="xl:text-[2.5rem] text-4xl font-medium">10+</p>
+          <p className="text-lg    mt-5 text-white capitalize">VC funds</p>
         </div>
       </div>
    </div>
