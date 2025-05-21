@@ -13,7 +13,6 @@
     "@heroicons/react": "^2.2.0",
     "@react-spring/web": "^9.7.5",
     "@tailwindcss/vite": "^4.1.4",
-    "aos": "^2.3.4",
     "formik": "^2.4.6",
     "framer-motion": "^12.7.4",
     "lucide-react": "^0.501.0",

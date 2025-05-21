@@ -1,9 +1,14 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
+import Aos from 'aos'
+import "../aos-master/dist/aos.css"
 const InviteBanner = () => {
+
+  useEffect(() => {
+    Aos.init()
+  }, []);
   return (
     <div className="container">
-        <section className="relative bg-[#b4d6d2] overflow-hidden px-6 py-6 mb-10">
+        <section className="relative bg-[#b4d6d2] overflow-hidden px-6 py-6 mb-10" data-aos="fade-down">
       {/* Optional background image */}
       <div className="absolute inset-0 opacity-20 bg-cover bg-center bg-[url('https://moengage-cdn.moengage.com/wp-content/uploads/2023/05/cubepattern.png')]"></div>
 
