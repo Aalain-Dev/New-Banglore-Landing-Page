@@ -1,6 +1,6 @@
 import { IdentificationIcon } from '@heroicons/react/16/solid';
 import React, { useState } from 'react'
-
+import blue_fadefrom from "../assets/Investor/blue-blur.webp"
 const Investor_Form = () => {
     const [inputValue, setInputValue] = useState("https://capitalconnect.bizdateup.com/thanks");
   
@@ -20,7 +20,10 @@ const Investor_Form = () => {
   };
 
   return (
- <div className="flex flex-col lg:flex-row items-start justify-between gap-12 px-6 py-16 bg-gray-50 ">
+ <div className="flex flex-col lg:flex-row items-start justify-between gap-12 px-6 py-16 bg-gray-50 relative">
+  <div className="iamge">
+    <img src={blue_fadefrom} alt="" className='w-[600px] h-[500px] absolute top-0 left-[-200px]' />
+  </div>
   {/* Logos Section */}
   <div className="container flex gap-10 xl:flex-row flex-col " >
     <div className="flex-1 w:1/2">

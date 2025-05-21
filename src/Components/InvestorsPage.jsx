@@ -20,11 +20,12 @@ const InvestorsPage = () => {
    <Bangalore/>
    <AssociationStats/>
    <Investor_Form/>
+   <AboutGrowth/>
+
    <ConferenceAgenda/>
    <Investor_Speakers/>
    <InviteBanner/>
    <WhyAttend/>
-   <AboutGrowth/>
    <PastEventsGallery/>
    <Request/>
    <AboutSection/>
