@@ -3,9 +3,11 @@ import Amit_Singhal from "../assets/Speakers/Amit_Singhal.png";
 // import man from "../assets/Speakers/Amit_Singhal.png";
 // import logo from "../assets/Speakers/inspire-logo.webp";
 import Raveen_Sastry from "../assets/Speakers/Raveen Sastry.png";
+import vinod from "../assets/Speakers/Vinod Keni.png";
 import Tejasvi_Surya from "../assets/Speakers/Tejasvi Surya.png";
 import fluid_ventures from "../assets/Speakers/fluid-ventures.png";
 import multiply_ventures from "../assets/Speakers/multiply_ventures.png";
+import PEACH from "../assets/Speakers/peach.png";
 
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
@@ -35,7 +37,14 @@ const Speakers = () => {
       image: Tejasvi_Surya,
       linkedin_profile: "https://www.linkedin.com/in/tejasvi-surya"
     },
-
+  {
+      id: 4,
+      name: "Vinod Keni",
+      title: "Founder & Managing Partner",
+      image: vinod,
+      logo: PEACH,
+      linkedin_profile: "https://www.linkedin.com/in/vinodkeni/"
+    },
   ];
 
   const openSidebar = (speaker) => {
@@ -65,6 +74,7 @@ const Speakers = () => {
                 key={person.id}
                 className="flex flex-col justify-center items-center cursor-pointer gap-5"
               >
+                
                 <div className="overflow-hidden rounded-lg relative group">
                   <img
                     src={person.image}

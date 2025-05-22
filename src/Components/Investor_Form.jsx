@@ -1,9 +1,47 @@
 import { IdentificationIcon } from '@heroicons/react/16/solid';
 import React, { useState } from 'react'
 import blue_fadefrom from "../assets/Investor/blue-blur.webp"
+import blume from "../assets/Nation/blume_ventures.png"
+import v3 from "../assets/Nation/v3.png"
+import bizdateup from "../assets/Nation/bizdateup.png"
+import faad from "../assets/Nation/faad.png"
+import fluid from "../assets/Nation/fluid.png"
+import gvfl from "../assets/Nation/gvfl.png"
+import multiply from "../assets/Nation/multiply.png"
+import dbs from "../assets/Nation/dbs.png"
+import kotak from "../assets/Nation/kotak.png"
 const Investor_Form = () => {
     const [inputValue, setInputValue] = useState("https://capitalconnect.bizdateup.com/thanks");
-  
+  const data = [
+   {
+    id:1,  img: blume
+   }
+   ,
+    {
+    id:2,  img: v3
+   },
+    {
+    id:3,  img: bizdateup
+   },
+    {
+    id:4,  img: faad
+   },
+    {
+    id:5,  img: fluid
+   },
+    {
+    id:6,  img: gvfl
+   },
+    {
+    id:7,  img: multiply
+   },
+   {
+    id:8,  img: dbs
+   },
+   {
+    id:9,  img: kotak
+   }
+  ]
     const [formData, setFormData] = useState({
     fullName: '',
     phone: '',
@@ -27,19 +65,14 @@ const Investor_Form = () => {
   {/* Logos Section */}
   <div className="container flex gap-10 xl:flex-row flex-col " >
     <div className="flex-1 w:1/2">
-    <h2 className="text-2xl font-medium mb-6">
-      Listen To Marketing & Product Leaders From
+    <h2 className="text-2xl font-medium mb-6 capitalize">
+Listen to angel investors and vc's across the nation
     </h2>
     <div className="grid grid-cols-3 gap-px border border-gray-300 bg-gray-300 cursor-pointer" >
-      {[
-        'airtel', 'tata', 'hdfc',
-        'asianpaints', 'ihcl', 'zee5',
-        'policybazaar', 'nazara', 'tata-cliq',
-        'apollo', 'federal', 'digital'
-      ].map((logo, index) => (
+      {data.map((logo, index) => (
         <div key={index} className="bg-white flex items-center justify-center p-4 h-24">
          <img
-  src={`https://www.hashgrowth.org/wp-content/uploads/2025/03/tata-capital-logo.png`}
+  src={logo.img}
   alt={logo}
   className="max-h-10 object-contain filter grayscale hover:grayscale-0 transition duration-300"  data-aos="flip-up"
 />

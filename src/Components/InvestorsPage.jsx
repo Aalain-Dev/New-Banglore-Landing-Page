@@ -14,13 +14,14 @@ import AboutSection from './Investor_About'
 import Investor_Footer from './Investor_Footer'
 import Timer from './Timer'
 import Speakers from './Speakers'
+import Performance_Strip from './Performance_Strip'
 
 const InvestorsPage = () => {
   return (
    <>
    <Investor_Navbar/>
    <Bangalore/>
-   <AssociationStats/>
+   <Performance_Strip/>
  <div className="tickets">
     <Investor_Form/>
  </div>
