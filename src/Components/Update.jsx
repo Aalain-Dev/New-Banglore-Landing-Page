@@ -68,12 +68,12 @@ const Update = () => {
                   <Field
                     type="email"
                     name="email"
-                    placeholder="Your Email"
+                    placeholder="Your Email" required
                     className="px-4 py-2 rounded-md text-black w-full bg-white"
                   />
                   <ErrorMessage
                     name="email"
-                    component="div"
+                    component="div" required
                     className="text-red-500 text-sm mt-1"
                   />
                 </div>
