@@ -2,7 +2,7 @@ import React from 'react';
 import logo from "../assets/Navbar/BizDateUp-logo.png"
 const Investor_Footer = () => {
   return (
-    <footer className="bg-black text-white py-8 px-4 pt-10">
+    <footer className="bg-black text-white py-8 px-4 pt-10 pb-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-col gap-4">
         {/* Branding */}
         <div className="flex items-center gap-2">

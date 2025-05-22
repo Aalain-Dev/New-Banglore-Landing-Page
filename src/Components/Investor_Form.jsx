@@ -20,7 +20,7 @@ const Investor_Form = () => {
   };
 
   return (
- <div className="flex flex-col lg:flex-row items-start justify-between gap-12 px-6 py-16 bg-gray-50 relative">
+ <div className="flex flex-col lg:flex-row items-start justify-between xl:gap-12 gap-0 xl:py-16 py-10  bg-gray-50 relative">
   <div className="iamge">
     <img src={blue_fadefrom} alt="" className='w-[600px] h-[500px] absolute top-0 left-[-200px]' />
   </div>

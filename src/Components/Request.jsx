@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Request = () => {
   return (
@@ -6,9 +7,9 @@ const Request = () => {
       <h1 className="text-white text-4xl xl:text-[36px] font-normal mb-8">
        Capital Connect : Bangalore Edition 
       </h1>
-      <a href='#' className="border border-white text-white px-6 py-3 rounded hover:bg-white hover:text-[#211F52] transition duration-300">
-        Request Your Invite
-      </a>
+ <ScrollLink to="tickets" smooth={true} duration={500}   className="uppercase pink-bg text-white text-center xl:text-[17px] px-5 py-2 rounded-xl font-bold cursor-pointer gradient-bg border-2 w-60">
+     Request Your Invite
+      </ScrollLink>
     </section>
   );
 };

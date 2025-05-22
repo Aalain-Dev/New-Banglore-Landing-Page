@@ -47,7 +47,7 @@ const Investor_Speakers = () => {
   };
 
   return (
-    <div className="mb-20 bg-[#f7f7f7] pb-10 pt-10">
+    <div className="mb-20 bg-[#f7f7f7] xl:pb-10 pb-5 pt-10">
       <div className="container">
         <h1 className='text-center   similar-head font-bold blue-color  xl:mt-10 mb-10'>
           UPCOMING  SPEAKERS AT BizDateUp

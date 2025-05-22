@@ -49,7 +49,7 @@ const Speakers = () => {
   };
 
   return (
-    <div className="mt-10">
+    <div className="mt-10 mb-10">
       <div className="container">
         <h1 className='text-center  mt-10 similar-head font-bold blue-color mt-5 xl:mt-10 mb-10'>
           UPCOMING  SPEAKERS AT BizDateUp
@@ -58,7 +58,7 @@ const Speakers = () => {
 
         {/* card Code */}
         <div className="flex justify-center">
-          <div className="flex gap-10 mt-10 justify-center"  >
+          <div className="flex gap-10 mt-10 justify-center xl:flex-row lg:flex-row flex-col"  >
             {data.map((person) => (
             <a href = {person.linkedin_profile} target='_blank'>
                 <div
@@ -77,11 +77,11 @@ const Speakers = () => {
                 </div>
 
                 <div className="flex flex-col justify-center items-center gap-2 text-center">
-                  <p className="xl:text-[1.5rem] mt-3 lg:text-[1.20rem] text-[1rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
+                  <p className="xl:text-[1.5rem] mt-3 lg:text-[1.20rem] text-[1.5rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
                     {person.name}
                   </p>
 
-                  <p className="xl:text-[1rem] lg:text-[0.75rem] font-bold text-[0.8rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">
+                  <p className="xl:text-[1rem] lg:text-[0.75rem] font-bold text-[1rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">
                     {person.title}
                   </p>
  {person.id !== 3 &&  (

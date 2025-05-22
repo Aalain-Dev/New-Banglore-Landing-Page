@@ -5,6 +5,8 @@ import orange_shape from "../assets/Investor/orange-circle.svg"
 import orange_blur from "../assets/Investor/orange-blur.webp"
 import grid_lines from "../assets/Investor/grid-lines.svg"
 import gateway_img from "../assets/Investor/gateway-img.png"
+import { Link as ScrollLink } from 'react-scroll';
+
 const Bangalore = () => {
   return (
  <>
@@ -49,15 +51,11 @@ const Bangalore = () => {
       <p className="text-lg  text-[#211F52] z-2  ">
         Discover India's Next Unicorns - By Invitation Only
       </p>
-      
-     <a
-  href=""
-  className="z-2  bg-[#211F52] text-white px-6 py-3 cursor-pointer rounded transition-transform duration-300 transform hover:scale-105 w-100 xl:text-xl"
+<ScrollLink to="tickets" smooth={true} duration={500}    className="z-2  bg-[#211F52] text-white px-6 py-3 cursor-pointer rounded transition-transform duration-300 transform hover:scale-105 w-100 xl:text-xl"
 >
-Request Your Invite
-</a>
-
-    </section>.
+     Request Your Invite
+      </ScrollLink>
+    </section>
  
  </>
   );

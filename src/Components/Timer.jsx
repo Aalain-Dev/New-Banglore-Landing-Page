@@ -39,7 +39,7 @@ const Timer = () => {
   }, [targetDate]);
 
   return (
-    <div className="fixed bottom-0 left-0 flex-col-h w-full bg-[#211F52] text-white py-2 px-6 flex items-center justify-center xl:gap-10 gap-5 rounded-t-3xl border-t-2 shadow-md z-4">
+    <div className="fixed bottom-0 left-0 flex-col-h w-full bg-[#211F52] text-white py-2 px-6 flex items-center justify-center xl:gap-10 gap-5 rounded-t-3xl border-t-2 shadow-md z-10">
       <div className="flex xl:flex-row flex-col items-center space-x-3 text-lg font-semibold gap-5">
        <div className="flex xl:gap-10 xl:flex-row flex-col gap-1">
        <div className="div">

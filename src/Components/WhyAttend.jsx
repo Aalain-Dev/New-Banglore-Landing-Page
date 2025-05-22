@@ -29,12 +29,12 @@ const WhyAttend = () => {
       Aos.init()
     }, []);
   return (
-    <section className="relative bg-white pb-10 pt-20 overflow-hidden">
+    <section className="relative bg-white pb-10 xl:pt-20 pt-5 overflow-hidden">
       {/* Glow Backgrounds */}
-      <div className="image">
+      <div className="image xl:block hidden">
         <img src={purple} alt="" className='absolute top-[-30px] right-[-200px] w-[500px] h-[500px]' />
       </div>
-  <div className="image">
+  <div className="image xl:block hidden">
         <img src={orange} alt="" className='absolute top-[10px] left-[-200px] w-[500px] h-[500px]' />
       </div>
       {/* Heading */}

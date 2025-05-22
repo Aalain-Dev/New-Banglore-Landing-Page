@@ -58,9 +58,8 @@ const ConferenceAgenda = () => {
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-3xl font-bold mb-2">Conference Agenda</h2>
         <p className="text-gray-400">
-          The sessions will cover a wide range of topics on engaging customers and driving growth
-        </p>
-        <p className="text-lg mt-6 font-medium">21st June, 2025</p>
+A high-intent networking event aimed at connect potential startups with investors, incubators, and accelerators.        </p>
+        <p className="text-lg mt-6 font-medium">21st June, 2025 </p>
       </div>
 
       {/* Timeline */}

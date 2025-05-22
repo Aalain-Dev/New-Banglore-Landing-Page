@@ -12,6 +12,8 @@ import PastEventsGallery from './past Events'
 import Request from './Request'
 import AboutSection from './Investor_About'
 import Investor_Footer from './Investor_Footer'
+import Timer from './Timer'
+import Speakers from './Speakers'
 
 const InvestorsPage = () => {
   return (
@@ -19,11 +21,13 @@ const InvestorsPage = () => {
    <Investor_Navbar/>
    <Bangalore/>
    <AssociationStats/>
-   <Investor_Form/>
+ <div className="tickets">
+    <Investor_Form/>
+ </div>
    <AboutGrowth/>
-
+<Timer/>
    <ConferenceAgenda/>
-   <Investor_Speakers/>
+   <Speakers/>
    <InviteBanner/>
    <WhyAttend/>
    <PastEventsGallery/>
