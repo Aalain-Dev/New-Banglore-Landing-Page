@@ -6,17 +6,17 @@ const AboutSection = () => {
         {/* Left Content */}
         <div>
           <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-6">
-            About MoEngage
+           About BizDateUp
+
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            MoEngage is a cross-channel customer engagement platform built for marketers and product owners who value agility over cumbersome complexity. We help consumer brands adapt quickly to evolving customer expectations through real-time insights and personalized cross-channel communications.
+BizDateUp is a startup ecosystem enabler, bridging the gap between early-stage startups and growth opportunities. We empower founders through strategic support, investor access, and market exposure.We aim to create spaces where startups and investors connect meaningfully. 
           </p>
           <p className="text-gray-700 text-lg mb-6">
-            We are trusted by 1,350+ global consumer brands, including Unilever, Airtel, PNB, The Coca-Cola Company, IndusInd Bank, Titan, Samsung, McAfee, Flipkart, Domino’s, The Indian Express, Nestle, Thomas Cook, and more.
-          </p>
-          <p className="text-gray-700 text-lg">
+Our events are designed to spark real conversations, unlock capital, and build long-term relationships because great ideas need more than pitch decks; they need the right people in the room.           </p>
+          {/* <p className="text-gray-700 text-lg">
             To learn more visit <a href="https://www.moengage.com" className="underline text-blue-600 hover:text-blue-800" target="_blank" rel="noreferrer">www.moengage.com</a>.
-          </p>
+          </p> */}
         </div>
 
         {/* Right Image */}

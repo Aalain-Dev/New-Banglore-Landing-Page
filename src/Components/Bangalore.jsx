@@ -54,7 +54,7 @@ const Bangalore = () => {
   href=""
   className="z-2  bg-[#211F52] text-white px-6 py-3 cursor-pointer rounded transition-transform duration-300 transform hover:scale-105 w-100 xl:text-xl"
 >
- Invite Only
+Request Your Invite
 </a>
 
     </section>.

@@ -1,51 +1,68 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
+import insight from "../assets/Investor/insight-icon-2.svg"
+import eye from "../assets/Investor/eye-icon.svg"
+import gmail from "../assets/Investor/gmail.svg"
+import purple from "../assets/Investor/purple-blur.webp"
+import orange from "../assets/Investor/orange-blur.webp"
+import Aos from 'aos'
+import "../aos-master/dist/aos.css"
 const cards = [
   {
-    icon: 'https://www.hashgrowth.org/wp-content/uploads/2023/05/insight-icon-1.svg',
-    title: 'Subject matter experts sharing practical insights',
-    desc: 'All speakers are practitioners who are actually driving growth for some of the leading consumer brands in India.',
+    icon: insight,
+    title: 'Curated Access to Top Startups',
+    desc: 'Connect with high-potential, pre-vetted startups through 1:1 matchmaking and curated founder meetups.',
   },
   {
-    icon: 'https://www.hashgrowth.org/wp-content/uploads/2023/05/insight-icon-2.svg',
-    title: 'Sharp focus on customer engagement',
-    desc: 'The sessions will cover best practices surrounding omnichannel marketing strategies and execution.',
+    icon:  eye,
+    title: 'Insights & Pipeline Acceleration',
+    desc: 'Gain investor-only market insights and spot co-investors to fast-track your deal pipeline with syndicates and strategic opportunities.',
   },
   {
-    icon: 'https://www.hashgrowth.org/wp-content/uploads/2023/05/insight-icon-3.svg',
-    title: 'Exclusive and high-quality conversations',
-    desc: 'It’s an invite-only, exclusive conference for marketing and product leaders at consumer brands.',
+    icon:  gmail,
+    title: ' Exclusive, Outcome-Driven Networking',
+    desc: 'Join a premium, invite-only space for real conversations with top VCs, angels, and brand leaders.',
   },
 ];
 
 const WhyAttend = () => {
+  useEffect(() => {
+      Aos.init()
+    }, []);
   return (
-    <section className="relative bg-white pb-10 overflow-hidden">
-
+    <section className="relative bg-white pb-10 pt-20 overflow-hidden">
       {/* Glow Backgrounds */}
-      <div className="absolute top-0 left-[-100px] w-80 h-80 bg-red-300 blur-[120px] opacity-30 rounded-full -z-10" />
-      <div className="absolute top-0 right-[-100px] w-80 h-80 bg-purple-300 blur-[120px] opacity-30 rounded-full -z-10" />
-
+      <div className="image">
+        <img src={purple} alt="" className='absolute top-[-30px] right-[-200px] w-[500px] h-[500px]' />
+      </div>
+  <div className="image">
+        <img src={orange} alt="" className='absolute top-[10px] left-[-200px] w-[500px] h-[500px]' />
+      </div>
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="text-3xl font-semibold text-gray-900">Why Attend?</h2>
       </div>
 
       {/* Cards Grid */}
-      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 ">
+      <div className="f">
+     
+
+      </div>
+      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 " >
         {cards.map((card, index) => (
           <div
             key={index}
-            className="  rounded-card p-6 text-center bg-white "
+            className="  rounded-card p-6 text-center bg-white " 
           >
-            <div className="flex justify-center mb-4">
-              <img src={cards.icon} alt="" className="w-10 h-10 bg-black
-              " />
+
+            <div className="flex justify-center mb-4 ">
+             <div className="bg-[#211F52] rounded-4xl p-3 border-3   border-[#3d3b8b]">
+              <img src={card.icon} alt=""  className='text-black w-[30px] h-[30px] '/>
+             </div>
             </div>
-            <h3 className="font-semibold text-gray-800 text-lg mb-2">
+            <h3 className="font-semibold text-black text-[20px] mb-2 capitalize">
               {card.title}
             </h3>
-            <p className="text-gray-600 text-sm">{card.desc}</p>
+            <p className="text-black text-lg">{card.desc}</p>
           </div>
         ))}
       </div>

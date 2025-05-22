@@ -16,10 +16,9 @@ const PastEventsGallery = () => {
   return (
     <section className="gallery-section container">
       <div className="text-center mb-8">
-        <h2 className="text-2xl font-semibold mb-2">A Glimpse into Our Past Events</h2>
+        <h2 className="text-2xl font-semibold mb-2 capitalize">A Glimpse into Our Past Events</h2>
         <p className="text-gray-600 max-w-xl mx-auto">
-          From keynote speakers to engaging workshops, our photo gallery captures the essence of what makes our events unforgettable.
-        </p>
+Founder showcases, expert-led panels, and purpose-driven high intent networking with investors, incubators, and accelerators,every BizDateUp event is built to spark real connections and growth.        </p>
       </div>
 
    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
