@@ -14,15 +14,13 @@ BizDateUp is a startup ecosystem enabler, bridging the gap between early-stage s
           </p>
           <p className="text-gray-700 text-lg mb-6">
 Our events are designed to spark real conversations, unlock capital, and build long-term relationships because great ideas need more than pitch decks; they need the right people in the room.           </p>
-          {/* <p className="text-gray-700 text-lg">
-            To learn more visit <a href="https://www.moengage.com" className="underline text-blue-600 hover:text-blue-800" target="_blank" rel="noreferrer">www.moengage.com</a>.
-          </p> */}
+       
         </div>
 
-        {/* Right Image */}
-        {/* <div className="flex justify-center md:justify-end"> */}
-          <video src={video} muted loop autoPlay ></video>
-        {/* </div> */}
+       <div >
+          <video src={video} muted loop autoPlay className="border-0"></video>
+
+       </div>
       </div>
     </section>
   );
