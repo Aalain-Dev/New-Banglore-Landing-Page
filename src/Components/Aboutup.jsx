@@ -5,8 +5,8 @@ import {
   FaUserLock,
   FaUsers,
 } from "react-icons/fa";
-import video from "../assets/What_Is_Event/video.mp4"
-
+// import video from "../assets/What_Is_Event/video.mp4"
+import video from "../assets/Investor/about_capital.mp4"
 import grid_lines from "../assets/Investor/grid-lines.svg"
 import interactive from "../assets/Investor/interactive-blur.webp"
 import insightful from "../assets/Investor/insightful-blur.webp"

@@ -1,4 +1,4 @@
-
+import video from "../assets/Investor/bizdateup_motion.mp4"
 const AboutSection = () => {
   return (
     <section className="bg-white py-16 px-6 md:px-20 relative overflow-hidden">
@@ -20,9 +20,9 @@ Our events are designed to spark real conversations, unlock capital, and build l
         </div>
 
         {/* Right Image */}
-        <div className="flex justify-center md:justify-end">
-          <img src="https://www.hashgrowth.org/wp-content/themes/hashgrowth/assets/images/data-circle.png" alt="Decorative dots" className="w-full max-w-sm md:max-w-md" />
-        </div>
+        {/* <div className="flex justify-center md:justify-end"> */}
+          <video src={video} muted loop autoPlay ></video>
+        {/* </div> */}
       </div>
     </section>
   );
