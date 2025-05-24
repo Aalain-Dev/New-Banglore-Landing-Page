@@ -6,7 +6,7 @@ import { PiInstagramLogoFill } from 'react-icons/pi';
 
 const Startup_Footer = () => {
   return (
-    <footer className="pb-20 xl:pt-10 pt-3 xl:h-auto h-[550px]" >
+    <footer className="pb-20 xl:pt-10 pt-3 xl:h-auto h-[600px]" >
       <div className="container mx-auto text-center space-y-6  xl:h-auto h-80">
        <div className="flex justify-between xl:flex-row flex-col gap-10">
      <div className="xl:w-1/2 w-full flex flex-col gap-10 justify-center items-center">
