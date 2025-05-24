@@ -53,7 +53,7 @@ const Speakers = () => {
       title: "Founder and Group Managing Partner",
       image: sunil_jain,
       logo: sprout,
-      linkedin_profile: "https://www.linkedin.com/in/vinodkeni/"
+      linkedin_profile: "https://www.linkedin.com/in/sunil-jain-8080aa6"
     },
   ];
 
