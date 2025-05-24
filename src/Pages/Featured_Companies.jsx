@@ -4,6 +4,7 @@ import Footer from '../Components/Footer'
 import Speakers_Banner from '../Components/Speakers_Banner'
 import Companies from '../Components/Companies'
 import Timer from '../Components/Timer'
+import Startup_Footer from '../Components/Startup_Footer'
 
 const Featured_Companies = () => {
     const data = [
@@ -17,7 +18,8 @@ const Featured_Companies = () => {
  <Navbar/>
 <Speakers_Banner data = {data}/>
 <Companies/>
- <Footer/>
+<Startup_Footer/>
+
  <Timer/>
   </>
   )

@@ -32,13 +32,6 @@ const Speakers = () => {
       logo: multiply_ventures,
       linkedin_profile: "https://www.linkedin.com/in/raveens/"
     },
-      {
-      id: 3,
-      name: "Tejasvi Surya",
-      title: "Honorable Member of Parliament ",
-      image: Tejasvi_Surya,
-      linkedin_profile: "https://www.linkedin.com/in/tejasvi-surya"
-    },
   {
       id: 4,
       name: "Vinod Keni",
@@ -123,11 +116,6 @@ const Speakers = () => {
    <div className="flex flex-col items-center justify-center bg-white/30 backdrop-blur-lg rounded-lg shadow-lg h-64 w-full p-6">
   <p className="blue-color text-2xl font-semibold">Coming Soon</p>
 </div>
-
-
-
-
-            
             </div>
           ))}
         </div> */}

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import img from "../../src/assets/Thank-you/thanks.webp"
+import Startup_Footer from './Startup_Footer'
 const Thanks = () => {
   return (
  <>
@@ -12,7 +13,7 @@ const Thanks = () => {
 <img src={img} alt="" className='xl:w-[400px] w-[300px]' />
   <h1 className='capitalize font-bold xl:text-3xl text-2xl blue-color mt-10 mb-10 text-center'>Our Team will get in Touch with you</h1>
 </div>
-  <Footer/>
+<Startup_Footer/>
   </div>
  </>
 

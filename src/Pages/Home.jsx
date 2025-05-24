@@ -14,6 +14,7 @@ import Update from '../Components/Update'
 import Footer from '../Components/Footer'
 import Timer from '../Components/Timer'
 import Thanks from '../Components/Thanks'
+import Startup_Footer from '../Components/Startup_Footer'
 
 const Home = () => {
   return (
@@ -32,7 +33,8 @@ const Home = () => {
 <Venue/>
 <FAQ/>
 <Update/>
-<Footer/>
+{/* <Footer/> */}
+<Startup_Footer/>
 <Timer/>
 {/* <Thanks/> */}
 </>

@@ -128,7 +128,7 @@ Listen to angel investors and vc's across the nation
       <input
         type="text"
         name="organization"
-        placeholder="Which organization are you associated with?"
+        placeholder="what is name of your current organization?"
         value={formData.organization}
         required
         onChange={handleChange}
@@ -152,15 +152,19 @@ Listen to angel investors and vc's across the nation
         onChange={handleChange}
         className="w-full border border-gray-300 px-4 py-3 rounded bg-white"
       />
-      <input
-        type="text"
-        name="size"
-        placeholder="What is your typical investment size?"
-        value={formData.size}
-        required
-        onChange={handleChange}
-        className="w-full border border-gray-300 px-4 py-3 rounded bg-white"
-      />
+   <div className="flex flex-col">
+<select name="size" defaultValue=""  className="w-full border border-gray-300 px-4 py-3 rounded bg-white">
+  <option value="" disabled className="capitalize">
+    Select investment size per startup
+  </option>
+  <option value="10 Lakhs - 20 Lakhs" className="capitalize">10 Lakhs - 20 Lakhs</option>
+  <option value="20 Lakhs - 40 Lakhs" className="capitalize">20 Lakhs - 40 Lakhs</option>
+  <option value="40 Lakhs - 50 Lakhs" className="capitalize">40 Lakhs - 50 Lakhs</option>
+  <option value="50 Lakhs - 75 Lakhs" className="capitalize">50 Lakhs - 75 Lakhs</option>
+  <option value="75 Lakhs - 1CR" className="capitalize">75 Lakhs - 1CR</option>
+</select>
+
+   </div>
 
       <p className="text-sm text-gray-500">
         By submitting this form, I agree to BizDateUp{' '}
