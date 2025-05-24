@@ -7,6 +7,8 @@ import vinod from "../assets/Speakers/Vinod Keni.png";
 import Tejasvi_Surya from "../assets/Speakers/Tejasvi Surya.png";
 import fluid_ventures from "../assets/Speakers/fluid-ventures.png";
 import multiply_ventures from "../assets/Speakers/multiply_ventures.png";
+import sunil_jain from "../assets/Speakers/sunil-jain.png";
+import sprout from "../assets/Speakers/sprout-logo.png";
 import PEACH from "../assets/Speakers/peach.png";
 
 const Speakers = () => {
@@ -43,6 +45,14 @@ const Speakers = () => {
       title: "Founder & Managing Partner",
       image: vinod,
       logo: PEACH,
+      linkedin_profile: "https://www.linkedin.com/in/vinodkeni/"
+    },
+     {
+      id: 5,
+      name: "Sunil Jain",
+      title: "Founder and Group Managing Partner",
+      image: sunil_jain,
+      logo: sprout,
       linkedin_profile: "https://www.linkedin.com/in/vinodkeni/"
     },
   ];
