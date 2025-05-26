@@ -41,7 +41,7 @@ const Performance_Strip = () => {
      <h1 className="text-center similar-head font-bold text-white">Bangalore’s #1 Curated Startup Ecosystem Event
 
        </h1>
-       <div className="grid xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-2 gap-10 grid-cols-1 place-items-center mt-10 justify-between">
+       <div className="grid xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-2 gap-10 grid-cols-2 place-items-center mt-10 justify-between">
       {
         data.map((item,index)=>{
             return(

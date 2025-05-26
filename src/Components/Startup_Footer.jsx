@@ -6,7 +6,7 @@ import { PiInstagramLogoFill } from 'react-icons/pi';
 
 const Startup_Footer = () => {
   return (
-    <footer className="pb-20 xl:pt-10 pt-3 xl:h-auto h-[600px]" >
+    <footer className="pb-20 xl:pt-10 pt-3 xl:h-auto h-[570px]" >
       <div className="container mx-auto text-center space-y-6  xl:h-auto h-80">
        <div className="flex justify-between xl:flex-row flex-col gap-10">
      <div className="xl:w-1/2 w-full flex flex-col gap-10 justify-center items-center">
@@ -23,32 +23,32 @@ const Startup_Footer = () => {
         <div className="xl:w-1/2 w-full flex flex-col xl:items-start items-center justify-center">
    <div className="gap-5 flex justify-center items-center">
         </div>
-        <div className="flex xl:flex-row flex-col justify-center items-center space-x-4 blue-color font-bold">
-          <Link to="/exhibitors">Exhibitors</Link>
-          <Link to="/speakers-events-schedule">Speakers & Event Schedule</Link>
-          <Link to="/featured-companies" >Featured Companies</Link>
-          <a href="https://www.bizdateup.com/privacypolicy"target='_blank' rel="noopener noreferrer">Privacy Policy</a>
+        <div className="flex xl:flex-row  justify-center items-center space-x-4 blue-color font-bold">
+          <Link to="/exhibitors" className='xl:text-[15px] text-[13px]'>Exhibitors</Link>
+          <Link to="/speakers-events-schedule" className='xl:text-[15px] text-[13px]'>Speakers & Event Schedule</Link>
+          <Link to="/featured-companies"  className='xl:text-[15px] text-[13px]'>Featured Companies</Link>
+          <a href="https://www.bizdateup.com/privacypolicy"target='_blank' rel="noopener noreferrer" className='xl:text-[15px] text-[13px]'>Privacy Policy</a>
         </div>
-           <div className="flex mt-5 flex-col ">
-       <p className='xl:text-left text-center font-bold mb-3'>  Contact Us:</p>
+           <div className="flex mt-5 flex-col w-full ">
+       <p className='xl:text-left text-left font-bold mb-3'>  Contact Us:</p>
 
            <div className="flex xl:gap-10 gap-2 flex-col xl:flex-row">
-              <div className="flex flex-col  xl:items-start items-center space-x-4 blue-color font-bold">
-       <p className='xl:text-left text-center'>Puneet</p>
-<a href="mailto:puneet@bizdateup.com" className='xl:text-left text-center' target='_blank'>
+              <div className="flex flex-col   space-x-4 blue-color font-bold">
+       <p className='text-left'>Puneet</p>
+<a href="mailto:puneet@bizdateup.com" className='text-left ' target='_blank'>
    puneet@bizdateup.com
 </a>
-<a className='xl:text-left text-center' href="tel:+919769768793">
+<a className='text-left' href="tel:+919769768793">
  +91 97697 68793
 
 </a>
         </div>
-        <div className="flex flex-col  xl:items-start items-center space-x-4 blue-color font-bold">
-       <p className='xl:text-left text-center'>Prasad</p>
-<a href="mailto:prasad@bizdateup.com" className='xl:text-left text-center' target='_blank'>
+        <div className="flex flex-col    space-x-4 blue-color font-bold">
+       <p className='text-left'>Prasad</p>
+<a href="mailto:prasad@bizdateup.com" className='text-left' target='_blank'>
   prasad@bizdateup.com
 </a>
-<a className='xl:text-left text-center' href="tel:+91 99875 81351">
+<a className='text-left' href="tel:+91 99875 81351">
 +91 99875 81351
 
 </a>

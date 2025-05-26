@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll';
 
-import video from "../assets/What_Is_Event/video.mp4"
+import video from "../assets/Investor/about_capital.mp4"
 const What_is_Event = () => {
   return (
   <div className="xl:mt-20 xl:mb-20  mt-5 mb-10">

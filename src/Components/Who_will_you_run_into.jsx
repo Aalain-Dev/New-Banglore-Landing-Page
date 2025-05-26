@@ -46,7 +46,7 @@ const data = [
 </h1>
 
 <div className="cards-section">
-    <div className=" grid xl:grid-cols-5  lg:grid-cols-3 md:grid-cols-3 grid-cols-1 justify-between items-center mt-10 gap-10">
+    <div className=" grid xl:grid-cols-5  lg:grid-cols-3 md:grid-cols-3 grid-cols-2 justify-between items-center place-items-center mt-10 gap-10">
        {
         data.map((item,index)=>{
             return(
