@@ -15,6 +15,7 @@ import Investor_Footer from './Investor_Footer'
 import Timer from './Timer'
 import Speakers from './Speakers'
 import Performance_Strip from './Performance_Strip'
+import Investors_Sticky_Button from './Investors_Sticky_Button'
 
 const InvestorsPage = () => {
   return (
@@ -26,7 +27,8 @@ const InvestorsPage = () => {
     <Investor_Form/>
  </div>
    <AboutGrowth/>
-<Timer/>
+{/* <Timer/> */}
+<Investors_Sticky_Button/>
    <ConferenceAgenda/>
    <Speakers/>
    <InviteBanner/>
