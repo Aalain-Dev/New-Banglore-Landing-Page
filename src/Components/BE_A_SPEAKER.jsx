@@ -4,7 +4,7 @@ import mobile from "../assets/BE_A_Speaker/mobile.png";
 
 const BE_A_SPEAKER = () => {
   const [showForm, setShowForm] = useState(false);
-  const [inputValue, setInputValue] = useState('https://capitalconnect.bizdateup.com/thanks');
+  const [inputValue, setInputValue] = useState('https://capitalconnect.bizdateup.com/payment-thanks');
 
   return (
     <>

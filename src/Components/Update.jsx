@@ -11,7 +11,7 @@ const validationSchema = Yup.object({
 
 const Update = () => {
   const navigate = useNavigate();
-  const [inputValue, setInputValue] = useState('https://capitalconnect.bizdateup.com/thanks');
+  const [inputValue, setInputValue] = useState('https://capitalconnect.bizdateup.com/payment-thanks');
 
   const handleChangeValue = () => {
     setInputValue('');

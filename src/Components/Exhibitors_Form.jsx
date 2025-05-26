@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Formik, Field, ErrorMessage } from "formik";
 
 const Exhibitors_Form = () => {
-  const [inputValue, setInputValue] = useState("https://capitalconnect.bizdateup.com/thanks");
+  const [inputValue, setInputValue] = useState("https://capitalconnect.bizdateup.com/payment-thanks");
 
   return (
     <>

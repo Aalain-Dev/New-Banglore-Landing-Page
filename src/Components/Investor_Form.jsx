@@ -13,7 +13,7 @@ import dbs from "../assets/Nation/dbs.png";
 import kotak from "../assets/Nation/kotak.png";
 
 const Investor_Form = () => {
-  const [inputValue, setInputValue] = useState("https://capitalconnect.bizdateup.com/thanks");
+  const [inputValue, setInputValue] = useState("https://capitalconnect.bizdateup.com/payment-thanks");
   const [selectedOptions, setSelectedOptions] = useState([]);
 
   const options = [
