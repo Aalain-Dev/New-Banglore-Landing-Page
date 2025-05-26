@@ -10,14 +10,14 @@ import { Link as ScrollLink } from 'react-scroll';
 const Bangalore = () => {
   return (
  <>
-    <section className="flex  mt-20 gap-10 flex-col overflow-hidden items-center justify-center xl:pt-30 relative pt-15 pb-20 bg-white text-center px-4" style={{ background: `url(${bangalore_banner})`, backgroundSize: 'cover' }}
+    <section className="flex  mt-20 gap-10 flex-col overflow-hidden items-center justify-center xl:pt-20 relative pt-10 pb-20 bg-white text-center px-4" style={{ background: `url(${bangalore_banner})`, backgroundSize: 'cover' }}
 >
      
          {/* <div className="absolute top-0  left-0">
           <img src={bangalore_banner} alt="" className="w-full h-full" />
         </div> */}
        
-      <h1 className=" xl:text-[4rem] text-[2rem] font-bold   text-[#211F52] z-2 ">
+      <h1 className=" xl:text-[3.5rem] text-[2rem] font-bold   text-[#211F52] z-2 ">
        
         
        Capital Connect Bangalore  <br />
