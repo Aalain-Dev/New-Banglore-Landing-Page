@@ -17,7 +17,8 @@ const Bangalore = () => {
           <img src={bangalore_banner} alt="" className="w-full h-full" />
         </div> */}
        
-      <h1 className=" xl:text-[3.5rem] text-[2rem] font-bold   text-[#211F52] z-2 ">
+     <div className="flex flex-col justify-center items-center gap-10">
+       <h1 className=" xl:text-[3.5rem] text-[2rem] font-bold   text-[#211F52] z-2 ">
        
         
        Capital Connect Bangalore  <br />
@@ -40,8 +41,9 @@ const Bangalore = () => {
 >
      Request Your Invite
       </ScrollLink>
+     </div>
     </section>
-    <section className="flex  mt-20 gap-10 flex-col overflow-hidden items-center justify-center xl:pt-20 relative pt-10  bg-white text-center px-4 bg-image-investor-mobile " 
+    <section className="flex  mt-20 gap-10 flex-col overflow-hidden items-center justify-center xl:pt-20 relative pt-10  bg-white text-center px-4 bg-image-investor-mobile" 
 >
      
          {/* <div className="absolute top-0  left-0">
