@@ -309,3 +309,29 @@ transition: 0.5s linear;
 .submit-btn:hover {
   background-color: #0f172a;
 }
+.bg-image-investor{
+  background-image: url("../src/assets/Investor/bangalore-investor-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+.bg-image-investor-mobile{
+  background-image: url("../src/assets/Investor/bangalore-investor-mobile-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: none ;
+  width: 100%;
+}
+@media screen and (max-width:991px) {
+  .bg-image-investor{
+    display: none!important;
+  }
+  .bg-image-investor-mobile{
+    display: block!important;
+  }
+  .event-info-list li:not(:last-child)::after {
+ display: none;
+}
+}
