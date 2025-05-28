@@ -20,7 +20,7 @@ const Featured_Companies = () => {
 <Speakers_Banner data = {data}/>
 <Companies/>
 <Startup_Footer/>
-<WhatsAppIconButton/>
+{/* <WhatsAppIconButton/> */}
 
  <Timer/>
   </>

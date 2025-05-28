@@ -27,7 +27,7 @@ const Exhibitors = () => {
    <Startup_Footer/>
 
 <Timer/>
-<WhatsAppIconButton/>
+{/* <WhatsAppIconButton/> */}
     
     </>
   )

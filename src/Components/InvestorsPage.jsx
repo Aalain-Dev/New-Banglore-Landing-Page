@@ -38,7 +38,7 @@ const InvestorsPage = () => {
    <Request/>
    <AboutSection/>
    <Investor_Footer/>
-<WhatsAppIconButton/>
+{/* <WhatsAppIconButton/> */}
 
    </>
   )

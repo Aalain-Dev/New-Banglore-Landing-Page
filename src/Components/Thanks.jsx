@@ -15,7 +15,7 @@ const Thanks = () => {
   <h1 className='capitalize font-bold xl:text-3xl text-2xl blue-color mt-10 mb-10 text-center'>Our Team will get in Touch with you</h1>
 </div>
 <Startup_Footer/>
-<WhatsAppIconButton/>
+{/* <WhatsAppIconButton/> */}
 
   </div>
  </>

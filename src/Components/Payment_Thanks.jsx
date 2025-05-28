@@ -17,7 +17,7 @@ const Payment_Thanks = () => {
   <h1 className='capitalize font-bold xl:text-2xl text-2xl blue-color mt-2 mb-10 text-center'>Alternatively you can contact <a href="https://wa.me/9987581351" target="_blank" className='underline'>Prasad On Whatsapp</a></h1>
 </div>
 <Startup_Footer/>
-<WhatsAppIconButton/>
+{/* <WhatsAppIconButton/> */}
 
   </div>
     

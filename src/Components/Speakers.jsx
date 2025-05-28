@@ -8,7 +8,9 @@ import Tejasvi_Surya from "../assets/Speakers/Tejasvi Surya.png";
 import fluid_ventures from "../assets/Speakers/fluid-ventures.png";
 import multiply_ventures from "../assets/Speakers/multiply_ventures.png";
 import sunil_jain from "../assets/Speakers/sunil-jain.png";
+import rajalakshmi from "../assets/Speakers/rajalakshmi.png";
 import sprout from "../assets/Speakers/sprout-logo.png";
+import zoho from "../assets/Speakers/zoho-removebg.png";
 import PEACH from "../assets/Speakers/peach.png";
 
 const Speakers = () => {
@@ -47,6 +49,14 @@ const Speakers = () => {
       image: sunil_jain,
       logo: sprout,
       linkedin_profile: "https://www.linkedin.com/in/sunil-jain-8080aa6"
+    },
+     {
+      id: 5,
+      name: "Rajalakshmi Srinivasan",
+      title: "Director",
+      image: rajalakshmi,
+      logo: zoho,
+      linkedin_profile: "https://www.linkedin.com/in/raji-zoho"
     },
   ];
 
