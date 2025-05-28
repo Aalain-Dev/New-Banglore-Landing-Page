@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import img from "../../src/assets/Thank-you/thanks.webp"
 import Startup_Footer from './Startup_Footer'
+import WhatsAppIconButton from './WhatsAppIconButton'
 const Thanks = () => {
   return (
  <>
@@ -14,6 +15,8 @@ const Thanks = () => {
   <h1 className='capitalize font-bold xl:text-3xl text-2xl blue-color mt-10 mb-10 text-center'>Our Team will get in Touch with you</h1>
 </div>
 <Startup_Footer/>
+<WhatsAppIconButton/>
+
   </div>
  </>
 

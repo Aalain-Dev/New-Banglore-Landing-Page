@@ -15,6 +15,7 @@ import Footer from '../Components/Footer'
 import Timer from '../Components/Timer'
 import Thanks from '../Components/Thanks'
 import Startup_Footer from '../Components/Startup_Footer'
+import WhatsAppIconButton from '../Components/WhatsAppIconButton'
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
 {/* <Footer/> */}
 <Startup_Footer/>
 <Timer/>
+<WhatsAppIconButton/>
 {/* <Thanks/> */}
 </>
   )

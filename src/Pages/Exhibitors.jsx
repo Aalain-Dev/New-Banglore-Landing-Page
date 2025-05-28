@@ -8,6 +8,7 @@ import All_Cards from '../Components/All_Cards'
 import Timer from '../Components/Timer'
 import Exhibitors_Form from '../Components/Exhibitors_Form'
 import Startup_Footer from '../Components/Startup_Footer'
+import WhatsAppIconButton from '../Components/WhatsAppIconButton'
 
 const Exhibitors = () => {
     const data = [
@@ -26,6 +27,7 @@ const Exhibitors = () => {
    <Startup_Footer/>
 
 <Timer/>
+<WhatsAppIconButton/>
     
     </>
   )

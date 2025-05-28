@@ -5,6 +5,7 @@ import Speakers_Banner from '../Components/Speakers_Banner'
 import Companies from '../Components/Companies'
 import Timer from '../Components/Timer'
 import Startup_Footer from '../Components/Startup_Footer'
+import WhatsAppIconButton from '../Components/WhatsAppIconButton'
 
 const Featured_Companies = () => {
     const data = [
@@ -19,6 +20,7 @@ const Featured_Companies = () => {
 <Speakers_Banner data = {data}/>
 <Companies/>
 <Startup_Footer/>
+<WhatsAppIconButton/>
 
  <Timer/>
   </>

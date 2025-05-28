@@ -16,6 +16,7 @@ import Timer from './Timer'
 import Speakers from './Speakers'
 import Performance_Strip from './Performance_Strip'
 import Investors_Sticky_Button from './Investors_Sticky_Button'
+import WhatsAppIconButton from './WhatsAppIconButton'
 
 const InvestorsPage = () => {
   return (
@@ -37,6 +38,8 @@ const InvestorsPage = () => {
    <Request/>
    <AboutSection/>
    <Investor_Footer/>
+<WhatsAppIconButton/>
+
    </>
   )
 }
