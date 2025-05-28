@@ -9,8 +9,9 @@ import faad from "../assets/Nation/faad.png";
 import fluid from "../assets/Nation/fluid.png";
 import gvfl from "../assets/Nation/gvfl.png";
 import multiply from "../assets/Nation/multiply.png";
-import dbs from "../assets/Nation/dbs.png";
-import kotak from "../assets/Nation/kotak.png";
+import sprout from "../assets/Nation/sprout-logo.png";
+import PEACH from "../assets/Nation/peach.png";
+// import sprout from "../assets/Nation./"
 
 const Investor_Form = () => {
   const [inputValue, setInputValue] = useState("https://capitalconnect.bizdateup.com/payment-thanks");
@@ -32,7 +33,7 @@ const Investor_Form = () => {
   const logos = [
     { id: 1, img: blume }, { id: 2, img: v3 }, { id: 3, img: bizdateup },
     { id: 4, img: faad }, { id: 5, img: fluid }, { id: 6, img: gvfl },
-    { id: 7, img: multiply }, { id: 8, img: dbs }, { id: 9, img: kotak }
+    { id: 7, img: multiply }, {id:8, img:sprout},{id:9, img:PEACH}
   ];
 
   const [formData, setFormData] = useState({

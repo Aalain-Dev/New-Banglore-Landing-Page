@@ -1,9 +1,8 @@
 import video from "../assets/Investor/bizdateup_motion.mp4"
 const AboutSection = () => {
   return (
-    <section className="bg-white py-16 px-6 md:px-20 relative overflow-hidden">
+    <section className="bg-white xl:py-16 py-5 px-6 md:px-20 relative overflow-hidden">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        {/* Left Content */}
         <div>
           <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-6">
            About BizDateUp

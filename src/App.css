@@ -317,10 +317,10 @@ transition: 0.5s linear;
   display: block;
 }
 .bg-image-investor-mobile{
-  background-image: url("../src/assets/Investor/bangalore-investor-mobile-banner.png");
+  /* background-image: url("../src/assets/Investor/bangalore-investor-mobile-banner.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   display: none ;
   /* width: 100%; */
 }
@@ -333,5 +333,24 @@ transition: 0.5s linear;
   }
   .event-info-list li:not(:last-child)::after {
  display: none;
+}
+}
+.mobile-section{
+  margin-top: 50px;
+}
+@media screen and (max-width:500px) {
+.h1-text{
+  font-size: 21px;
+
+}
+.similar-head{
+    font-size: 20px;
+
+}
+.mobile-section{
+  margin-top: 50px;
+}
+.discover-text{
+  font-size: 14px;
 }
 }

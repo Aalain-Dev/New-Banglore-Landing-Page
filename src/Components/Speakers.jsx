@@ -9,8 +9,10 @@ import fluid_ventures from "../assets/Speakers/fluid-ventures.png";
 import multiply_ventures from "../assets/Speakers/multiply_ventures.png";
 import sunil_jain from "../assets/Speakers/sunil-jain.png";
 import rajalakshmi from "../assets/Speakers/rajalakshmi.png";
+import kartik from "../assets/Speakers/kartik.png";
 import sprout from "../assets/Speakers/sprout-logo.png";
 import zoho from "../assets/Speakers/zoho-removebg.png";
+import peer_capital from "../assets/Speakers/peer_Capital_logo.png";
 import PEACH from "../assets/Speakers/peach.png";
 
 const Speakers = () => {
@@ -58,6 +60,14 @@ const Speakers = () => {
       logo: zoho,
       linkedin_profile: "https://www.linkedin.com/in/raji-zoho"
     },
+      {
+      id: 5,  
+      name: "Karthik Prabhakar",
+      title: "Managing Partner",
+      image: kartik,
+      logo: peer_capital,
+      linkedin_profile: "https://www.linkedin.com/in/karthikprabhakar"
+    },
   ];
 
   const openSidebar = (speaker) => {
@@ -80,41 +90,36 @@ const Speakers = () => {
 
         {/* card Code */}
         <div className="flex justify-center">
-          <div className="flex gap-10 mt-10 justify-center xl:flex-row lg:flex-row flex-col"  >
-            {data.map((person) => (
-            <a href = {person.linkedin_profile} target='_blank'>
-                <div
-                key={person.id}
-                className="flex flex-col justify-center items-center cursor-pointer gap-5"
-              >
-                
-                <div className="overflow-hidden rounded-lg relative group">
-                  <img
-                    src={person.image}
-                    alt={person.name}
-                    className="w-70 transform transition-transform duration-300 hover:scale-110"
-                  />
-                  {/* <div className="absolute bottom-2 right-2 z-10 bg-white p-2 rounded font-bold text-[14px] opacity-0 group-hover:opacity-100 transition-all duration-300">
-            More Info
-          </div> */}
-                </div>
+       <div className="grid grid-cols-1 gap-10 mt-10 justify-items-center xl:grid-cols-3 lg:grid-cols-2">
+  {data.map((person) => (
+    <a href={person.linkedin_profile} target="_blank" key={person.id}>
+      <div className="flex flex-col justify-center items-center cursor-pointer gap-5">
+        <div className="overflow-hidden rounded-lg relative group">
+          <img
+            src={person.image}
+            alt={person.name}
+            className="w-70 transform transition-transform duration-300 hover:scale-110"
+          />
+        </div>
 
-                <div className="flex flex-col justify-center items-center gap-2 text-center">
-                  <p className="xl:text-[1.5rem] mt-3 lg:text-[1.20rem] text-[1.5rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
-                    {person.name}
-                  </p>
+        <div className="flex flex-col justify-center items-center gap-2 text-center">
+          <p className="xl:text-[1.5rem] mt-3 lg:text-[1.20rem] text-[1.5rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
+            {person.name}
+          </p>
 
-                  <p className="xl:text-[1rem] lg:text-[0.75rem] font-bold text-[1rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">
-                    {person.title}
-                  </p>
- {person.id !== 3 &&  (
-        <img src={person.logo} alt="logo" className="logo" />
-      )}
-                </div>
-              </div>
-            </a>
-            ))}
-          </div>
+          <p className="xl:text-[1rem] lg:text-[0.75rem] font-bold text-[1rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">
+            {person.title}
+          </p>
+
+          {person.id !== 3 && (
+            <img src={person.logo} alt="logo" className="logo" />
+          )}
+        </div>
+      </div>
+    </a>
+  ))}
+</div>
+
         </div>
 
         {/* <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-2 place-items-center mt-10 gap-10">
