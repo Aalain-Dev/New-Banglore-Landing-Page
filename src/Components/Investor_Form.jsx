@@ -89,6 +89,11 @@ const Investor_Form = () => {
           >
             {/* Hidden config */}
             <input type="hidden" name="_cc" value="aalain@bizdateup.com" />
+             <input
+                type="hidden"
+                name="_subject"
+                value="New submission! For Investors"
+              />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_next" value={inputValue} />
 
