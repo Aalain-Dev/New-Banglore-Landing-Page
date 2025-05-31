@@ -1,31 +1,21 @@
 import React from 'react';
 // import Company_Card_2 from './Company_Card_2';
-
+import eranext from "../assets/Featured_Companies/eranext.png"
 const Companies = () => {
   const data = [
     {
-      img: "https://affiliateworldconferences.com/europe/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fawc-platform-prod%2Fawe25%2Fbadge-logos%2F1744013115_ahb8ky6_appective-logo-320-x-80-kopya.png&w=1920&q=75"
+      img: eranext
+    },
+   
+  ];
+const soon = [
+    {
+      img: "Soone"
     },
     {
-      img: "https://affiliateworldconferences.com/europe/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fawc-platform-prod%2Fawe25%2Fbadge-logos%2F1740678219_me0077z_CBH-mono-BLACK.png&w=1920&q=75"
-    },
-    {
-      img: "https://affiliateworldconferences.com/europe/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fawc-platform-prod%2Fawe25%2Fbadge-logos%2F1744013115_ahb8ky6_appective-logo-320-x-80-kopya.png&w=1920&q=75"
-    },
-    {
-      img: "https://affiliateworldconferences.com/europe/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fawc-platform-prod%2Fawe25%2Fbadge-logos%2F1740678219_me0077z_CBH-mono-BLACK.png&w=1920&q=75"
-    },
-    {
-      img: "https://affiliateworldconferences.com/europe/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fawc-platform-prod%2Fawe25%2Fbadge-logos%2F1744013115_ahb8ky6_appective-logo-320-x-80-kopya.png&w=1920&q=75"
-    },
-    {
-      img: "https://affiliateworldconferences.com/europe/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fawc-platform-prod%2Fawe25%2Fbadge-logos%2F1740678219_me0077z_CBH-mono-BLACK.png&w=1920&q=75"
-    },
-    {
-      img: "https://affiliateworldconferences.com/europe/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fawc-platform-prod%2Fawe25%2Fbadge-logos%2F1744013115_ahb8ky6_appective-logo-320-x-80-kopya.png&w=1920&q=75"
-    },
-    {
-      img: "https://affiliateworldconferences.com/europe/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fawc-platform-prod%2Fawe25%2Fbadge-logos%2F1740678219_me0077z_CBH-mono-BLACK.png&w=1920&q=75"
+      img: "Soone"
+    }, {
+      img: "Soone"
     },
   ];
 
@@ -43,14 +33,40 @@ const Companies = () => {
         ))} */}
 
         {/* Placeholder Coming Soon Cards */}
-        {Array.from({ length: 8 }).map((_, index) => (
+        {/* {Array.from({ length: 8 }).map((_, index) => (
           <div
             key={index}
             className="flex flex-col items-center justify-center bg-white/30 backdrop-blur-lg rounded-lg shadow-lg h-64 w-full p-6"
           >
             <p className='blue-color text-2xl font-semibold'>Coming Soon</p>
           </div>
-        ))}
+        ))} */}
+        {
+          data.map((item,index)=>{
+            return(
+                 <div
+            key={index}
+            className="flex flex-col items-center justify-center bg-white/30 backdrop-blur-lg rounded-lg shadow-lg h-64 w-full p-6"
+          >
+         <img src={item.img} alt="" />
+          </div>
+            )
+          })
+           
+        }
+        {
+           soon.map((item,index)=>{
+            return(
+                 <div
+            key={index}
+            className="flex flex-col items-center justify-center bg-white/30 backdrop-blur-lg rounded-lg shadow-lg h-64 w-full p-6"
+          >
+            <p className='blue-color text-2xl font-semibold'>Coming Soon</p>
+
+          </div>
+            )
+          })
+        }
       </div>
     </div>
   );
