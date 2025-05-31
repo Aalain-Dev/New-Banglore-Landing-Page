@@ -22,7 +22,7 @@ const Speakers = () => {
   const data = [
     {
       id: 1,
-      name: "Amit Singhal",
+      name: "Amit Singal",
       title: "General Partner",
       image: Amit_Singhal,
       logo: fluid_ventures,
