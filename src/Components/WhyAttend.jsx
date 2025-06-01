@@ -5,7 +5,7 @@ import gmail from "../assets/Investor/gmail.svg"
 import purple from "../assets/Investor/purple-blur.webp"
 import orange from "../assets/Investor/orange-blur.webp"
 import Aos from 'aos'
-import "../aos-master/dist/aos.css"
+// import "../aos-master/dist/aos.css"
 const cards = [
   {
     icon: insight,

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos'
-import "../aos-master/dist/aos.css"
+// import "../aos-master/dist/aos.css"
 import { Link as ScrollLink } from 'react-scroll';
 
 const InviteBanner = () => {

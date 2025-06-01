@@ -13,11 +13,11 @@ import insightful from "../assets/Investor/insightful-blur.webp"
 import invite from "../assets/Investor/invite-only-blur.webp"
 import person from "../assets/Investor/in-person.webp"
 import Aos from 'aos'
-import "../aos-master/dist/aos.css"
+// import "../aos-master/dist/aos.css"
 const featureItems = [
   {
     label: "Interactive",
-    icon: <FaUserFriends size={20} />,
+    icon: <FaUserFriends size={20} />
     bg: "bg-red-500",
     shadow: "shadow-red-300",
     position: "top-10 left-[30px]",
