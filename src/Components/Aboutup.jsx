@@ -17,7 +17,7 @@ import Aos from 'aos'
 const featureItems = [
   {
     label: "Interactive",
-    icon: <FaUserFriends size={20} />
+    icon: <FaUserFriends size={20} />,
     bg: "bg-red-500",
     shadow: "shadow-red-300",
     position: "top-10 left-[30px]",
