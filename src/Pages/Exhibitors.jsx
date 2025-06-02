@@ -13,7 +13,7 @@ import WhatsAppIconButton from '../Components/WhatsAppIconButton'
 const Exhibitors = () => {
     const data = [
         {
-            head:"Before EXHIBITORS",
+            head:"BECOME EXHIBITORS",
             text:"Capital Connect has a full day exhibition. Explore opportunities that could change the game for your business."
         }
       ]
@@ -27,7 +27,7 @@ const Exhibitors = () => {
    <Startup_Footer/>
 
 <Timer/>
-{/* <WhatsAppIconButton/> */}
+<WhatsAppIconButton/>
     
     </>
   )

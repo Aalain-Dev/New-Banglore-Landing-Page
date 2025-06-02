@@ -1,12 +1,15 @@
 import React from 'react';
 // import Company_Card_2 from './Company_Card_2';
 import eranext from "../assets/Featured_Companies/eranext.png"
+import pdrl from "../assets/Featured_Companies/pdrl.png"
 const Companies = () => {
   const data = [
     {
       img: eranext
     },
-   
+      {
+      img: pdrl
+    },
   ];
 const soon = [
     {

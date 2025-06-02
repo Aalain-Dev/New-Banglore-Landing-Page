@@ -28,7 +28,7 @@ const Bangalore = () => {
        Exclusive Investor Gathering
       </h1>
       <ul class="event-info-list mt-5 z-2 font-bold   text-[#211F52] ">
-        <li className="xl:text-[20px] text-[15px] z-2 ">21 June, 2025</li>
+        <li className="xl:text-[20px] text-[15px] z-2 ">21 <sup>st</sup> June, 2025</li>
         <li className="xl:text-[20px] text-[15px] z-2 ">10:30 am</li>
 
         <li className="xl:text-[20px] text-[15px] z-2  ">
@@ -65,7 +65,7 @@ const Bangalore = () => {
        <span className="text-[25px]">  Exclusive Investor Gathering</span>
       </h1>
       <ul class="event-info-list mt-[10px] z-2 font-bold justify-center items-center  gap-3 text-[#211F52] flex-col">
-        <li className="xl:text-[20px] text-[15px] z-2 flex justify-center items-center gap-1 "><MdOutlineDateRange /> 21 June, 2025</li>
+        <li className="xl:text-[20px] text-[15px] z-2 flex justify-center items-center gap-1 "><MdOutlineDateRange /> 21 <sup>st</sup> June, 2025</li>
         <li className="xl:text-[20px] text-[15px] z-2  flex justify-center items-center gap-1"><IoIosTime /> 10:30 am</li>
 
         <li className="xl:text-[20px] text-[15px] z-2  flex justify-center items-center gap-1 "><FaLocationDot />

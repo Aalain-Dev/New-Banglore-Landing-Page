@@ -37,7 +37,7 @@ const Home = () => {
 {/* <Footer/> */}
 <Startup_Footer/>
 <Timer/>
-{/* <WhatsAppIconButton/> */}
+<WhatsAppIconButton/>
 {/* <Thanks/> */}
 </>
   )
