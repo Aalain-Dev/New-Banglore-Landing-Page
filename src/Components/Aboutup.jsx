@@ -13,7 +13,7 @@ import insightful from "../assets/Investor/insightful-blur.webp"
 import invite from "../assets/Investor/invite-only-blur.webp"
 import person from "../assets/Investor/in-person.webp"
 import Aos from 'aos'
-import "../aos-master/dist/aos.css"
+// import "../aos-master/dist/aos.css"
 const featureItems = [
   {
     label: "Interactive",

@@ -102,9 +102,15 @@ const Tickets = () => {
         </li>
       </ul>
       <div className="flex">
-          <a href ="https://rzp.io/rzp/wjkq7sAP" target = "_blank" className=" text-center light-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-blue-add ">
-        BUY NOW
-      </a>
+          <a
+  id="buy-now-btn"
+  href="https://rzp.io/rzp/wjkq7sAP"
+  target="_blank"
+  className="text-center light-blue-bg w-full mt-5 pb-5 text-white xl:text-lg px-5 py-5 rounded-xl font-bold cursor-pointer bg-blue-add"
+>
+  BUY NOW
+</a>
+
       </div>
   </div>
 
