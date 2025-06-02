@@ -14,7 +14,7 @@ import sprout from "../assets/Speakers/sprout-logo.png";
 import zoho from "../assets/Speakers/zoho-removebg.png";
 import peer_capital from "../assets/Speakers/peer_Capital_logo.png";
 import PEACH from "../assets/Speakers/peach.png";
-
+import linkedin from "../assets/Speakers/linkedin_logo.png"
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -103,12 +103,15 @@ const Speakers = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center gap-2 text-center">
-          <p className="xl:text-[1.5rem] mt-3 lg:text-[1.20rem] text-[1.5rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
+          <p className="xl:text-[1.5rem] gap-3 flex items-center mt-3 lg:text-[1.20rem] text-[1.5rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
             {person.name}
+          <img src={linkedin} alt="" className='w-[35px] ' />
+            
           </p>
 
           <p className="xl:text-[1rem] lg:text-[0.75rem] font-bold text-[1rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">
             {person.title}
+            
           </p>
 
           {person.id !== 3 && (
