@@ -2,7 +2,7 @@ import React from 'react';
 
 const sessions = [
   {
-    time: '10:30 AM – 10:45 AM',
+    time: '10:00 Am – 10:45 AM',
     title: 'Opening Ceremony - Zone 1',
   },
   {

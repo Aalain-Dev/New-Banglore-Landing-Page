@@ -12,44 +12,44 @@ const Icon_Slider = () => {
       <marquee direction="right" className="mb-0 text-white text-lg font-semibold top-0 ">
         <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
         <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span> <span className="mx-4 text-[20px]">📍 INDIAN CRAFT BREWERY</span>
         <span className="mx-4 text-[20px]">📅 21 <sup>st</sup> June 2025</span>
-        <span className="mx-4 text-[20px]">🕒 10:30 AM onwards</span>
+        <span className="mx-4 text-[20px]">🕒 10:00 Am onwards</span>
 
       </marquee>
 

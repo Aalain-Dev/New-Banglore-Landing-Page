@@ -29,7 +29,7 @@ const Bangalore = () => {
       </h1>
       <ul class="event-info-list mt-5 z-2 font-bold   text-[#211F52] ">
         <li className="xl:text-[20px] text-[15px] z-2 ">21 <sup>st</sup> June, 2025</li>
-        <li className="xl:text-[20px] text-[15px] z-2 ">10:30 am</li>
+        <li className="xl:text-[20px] text-[15px] z-2 ">10:00 Am</li>
 
         <li className="xl:text-[20px] text-[15px] z-2  ">
           <a class="underline" target = "_blank" href="https://www.google.com/maps?sca_esv=3470b58f8723632d&rlz=1C1RXMK_enIN997IN997&uact=5&gs_lp=Egxnd3Mtd2l6LXNlcnAiHUlDQiBJTkRJQU4gQ1JBRlQgQlJFV0VSWSBtYXBzMgsQLhiABBjHARivATIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyGhAuGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEBSLcJUABY2AhwAHgAkAEAmAGHAqABkQeqAQUwLjEuM7gBA8gBAPgBAvgBAZgCBKACowfCAhAQLhiABBhDGMcBGIoFGK8BwgIFEAAYgATCAh8QLhiABBhDGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEBmAMA4gMFEgExIEC6BgYIARABGBSSBwUwLjEuM6AH6iGyBwUwLjEuM7gHowc&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KVfFE5vbF647MRgqfJGU7rWH&daddr=Sy+no+90/3,+K,+572/90,+Outer+Ring+Rd,+beside+Manhpo+Convention+Center,+DadaMastan+Layout,+Manayata+Tech+Park,+Nagawara,+Bengaluru,+Karnataka+560045" target="_blank">
@@ -66,7 +66,7 @@ const Bangalore = () => {
       </h1>
       <ul class="event-info-list mt-[10px] z-2 font-bold justify-center items-center  gap-3 text-[#211F52] flex-col">
         <li className="xl:text-[20px] text-[15px] z-2 flex justify-center items-center gap-1 "><MdOutlineDateRange /> 21 <sup>st</sup> June, 2025</li>
-        <li className="xl:text-[20px] text-[15px] z-2  flex justify-center items-center gap-1"><IoIosTime /> 10:30 am</li>
+        <li className="xl:text-[20px] text-[15px] z-2  flex justify-center items-center gap-1"><IoIosTime /> 10:00 Am</li>
 
         <li className="xl:text-[20px] text-[15px] z-2  flex justify-center items-center gap-1 "><FaLocationDot />
           <a class="underline" target = "_blank" href="https://www.google.com/maps?sca_esv=3470b58f8723632d&rlz=1C1RXMK_enIN997IN997&uact=5&gs_lp=Egxnd3Mtd2l6LXNlcnAiHUlDQiBJTkRJQU4gQ1JBRlQgQlJFV0VSWSBtYXBzMgsQLhiABBjHARivATIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyGhAuGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEBSLcJUABY2AhwAHgAkAEAmAGHAqABkQeqAQUwLjEuM7gBA8gBAPgBAvgBAZgCBKACowfCAhAQLhiABBhDGMcBGIoFGK8BwgIFEAAYgATCAh8QLhiABBhDGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEBmAMA4gMFEgExIEC6BgYIARABGBSSBwUwLjEuM6AH6iGyBwUwLjEuM7gHowc&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KVfFE5vbF647MRgqfJGU7rWH&daddr=Sy+no+90/3,+K,+572/90,+Outer+Ring+Rd,+beside+Manhpo+Convention+Center,+DadaMastan+Layout,+Manayata+Tech+Park,+Nagawara,+Bengaluru,+Karnataka+560045" target="_blank">

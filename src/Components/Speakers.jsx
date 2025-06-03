@@ -106,7 +106,7 @@ const Speakers = () => {
           <p className="xl:text-[1.5rem] gap-3 flex items-center mt-3 lg:text-[1.20rem] text-[1.5rem] font-bold dark-blue-color group-hover:opacity-0 transition-all duration-300">
             {person.name}
           <img src={linkedin} alt="" className='w-[35px] ' />
-            
+              
           </p>
 
           <p className="xl:text-[1rem] lg:text-[0.75rem] font-bold text-[1rem] dark-blue-color group-hover:opacity-0 transition-all duration-300">

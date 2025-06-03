@@ -2,7 +2,7 @@ import React from "react";
 
 const ScheduleTable = () => {
   const schedule = [
-    { time: "10:30 AM – 10:45 AM", activity: "Opening Ceremony - Zone 1" },
+    { time: "10:00 Am – 10:45 AM", activity: "Opening Ceremony - Zone 1" },
     { time: "10:45 AM – 11:00 AM", activity: "Keynote Speech - Zone 1" },
     { time: "11:00 AM – 11:15 AM", activity: "BizDateUp Introduction - Zone 1" },
     { time: "11:15 AM – 11:45 AM", activity: "Startup Live Pitch (1) - Zone 1" },
