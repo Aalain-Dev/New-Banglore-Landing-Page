@@ -48,7 +48,7 @@ const Tickets = () => {
   <li className="flex items-start text-lg blue-color">
   <span className="text-white font-bold mr-2 bg-green-600 px-2 py-1 rounded">✔</span>
 
-        <span className="blue-color font-bold mr-2">        Identified as Investor
+        <span className="blue-color font-bold mr-2">        Identified as Investor /Early-stage Founders / Consultants & Service Providers
         </span>
       </li>
       <li className="flex items-start text-lg blue-color">
