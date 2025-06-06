@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import Amit_Singhal from "../assets/Speakers/Amit_Singhal.png";
-// import man from "../assets/Speakers/Amit_Singhal.png";
-// import logo from "../assets/Speakers/inspire-logo.webp";
 import Raveen_Sastry from "../assets/Speakers/Raveen Sastry.png";
 import vinod from "../assets/Speakers/Vinod Keni.png";
 import Tejasvi_Surya from "../assets/Speakers/Tejasvi Surya.png";
@@ -10,6 +8,12 @@ import multiply_ventures from "../assets/Speakers/multiply_ventures.png";
 import sunil_jain from "../assets/Speakers/sunil-jain.png";
 import rajalakshmi from "../assets/Speakers/rajalakshmi.png";
 import kartik from "../assets/Speakers/kartik.png";
+import vikas from "../assets/Speakers/vikas.png";
+import sushil from "../assets/Speakers/sushil.png";
+import chirate from "../assets/Speakers/chirtae.png";
+import happilo from "../assets/Speakers/happilo.png";
+import marwari from "../assets/Speakers/marwari.png";
+import mandeep from "../assets/Speakers/mandeep.png";
 import sprout from "../assets/Speakers/sprout-logo.png";
 import zoho from "../assets/Speakers/zoho-removebg.png";
 import peer_capital from "../assets/Speakers/peer_Capital_logo.png";
@@ -68,6 +72,30 @@ const Speakers = () => {
       logo: peer_capital,
       linkedin_profile: "https://www.linkedin.com/in/karthikprabhakar"
     },
+       {
+      id: 6,  
+      name: "Mandeep Julka",
+      title: "Vice President",
+      image: mandeep,
+      logo: chirate,
+      linkedin_profile: "https://www.linkedin.com/in/mandeepjulka/?originalSubdomain=in"
+    },
+    {
+      id: 6,  
+      name: "Vikas Nahar",
+      title: "Founder",
+      image: vikas,
+      logo: happilo,
+      linkedin_profile: "https://www.linkedin.com/in/dvikas/?originalSubdomain=in"
+    },
+     {
+      id: 7,  
+      name: "Shushil Sharma",
+      title: "CEO",
+      image: sushil,
+      logo: marwari,
+      linkedin_profile: "https://www.linkedin.com/in/sushilsharmamcats/?originalSubdomain=in"
+    },
   ];
 
   const openSidebar = (speaker) => {
@@ -91,7 +119,7 @@ const Speakers = () => {
         {/* card Code */}
         <div className="flex justify-center">
        <div className="grid grid-cols-1 gap-10 mt-10 justify-items-center xl:grid-cols-3 lg:grid-cols-2">
-  {data.map((person) => (
+ {data.map((person) => (
     <a href={person.linkedin_profile} target="_blank" key={person.id}>
       <div className="flex flex-col justify-center items-center cursor-pointer gap-5">
         <div className="overflow-hidden rounded-lg relative group">
