@@ -2,6 +2,7 @@ import React from 'react';
 // import Company_Card_2 from './Company_Card_2';
 import eranext from "../assets/Featured_Companies/eranext.png"
 import pdrl from "../assets/Featured_Companies/pdrl.png"
+import infinite from "../assets/Featured_Companies/infinite.jpg"
 const Companies = () => {
   const data = [
     {
@@ -9,6 +10,9 @@ const Companies = () => {
     },
       {
       img: pdrl
+    },
+     {
+      img: infinite
     },
   ];
 const soon = [
