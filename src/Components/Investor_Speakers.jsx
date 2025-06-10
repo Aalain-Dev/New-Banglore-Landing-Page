@@ -50,7 +50,7 @@ const Investor_Speakers = () => {
     <div className="mb-20 bg-[#f7f7f7] xl:pb-10 pb-5 pt-10">
       <div className="container">
         <h1 className='text-center   similar-head font-bold blue-color  xl:mt-10 mb-10'>
-          UPCOMING  SPEAKERS AT BizDateUp
+UPCOMING SPEAKERS AT CAPITAL CONNECT
         </h1>
         <div className="w-24 h-1 bg-blue-400 mx-auto mt-2"></div>
 

@@ -111,11 +111,29 @@ const Speakers = () => {
   return (
     <div className="mt-10 mb-10">
       <div className="container">
-        <h1 className='text-center  mt-10 similar-head font-bold blue-color mt-5 xl:mt-10 mb-10'>
-          UPCOMING  SPEAKERS AT BizDateUp
+        <h1 className='text-center capitalize  mt-10 similar-head font-bold blue-color mt-5 xl:mt-10 mb-10'>
+          UPCOMING  SPEAKERS AT CAPITAL CONNECT
         </h1>
         <div className="w-24 h-1 bg-blue-400 mx-auto mt-2"></div>
-
+{/* Section Added */}
+{/* <section class="flex flex-col w-[70%] rounded-2xl mx-auto md:flex-row items-center gap-4 mt-10 mb-10 bg-[#211F52]">
+   <div class=" md:w-3/4  text-white pt-2  rounded-lg">
+   <div className="flex justify-center items-center">
+    <img src="https://tejasvisurya.in/_next/static/media/bannerTS-removebg.75334595.png" alt="" className='w-[300px]' />
+   </div> 
+        </div>
+   
+   <div class=" md:w-3/4 text-white pt-3 pb-3 px-3 rounded-lg">
+       <h2 class="text-3xl font-bold mb-4">Mr. Tejasvi Surya</h2>
+       <p className='font-bold text-xl'>Chief Guest at Capital Connect
+</p>
+<p className='mt-5'>Honorable Member of Parliament, Bangalore South, National President, Bharatiya Janata Yuva Morcha</p>
+<p className='mt-5 text-[14px]'>
+ We’re honored to welcome Hon’ble MP Mr. Tejasvi Surya as the Chief Guest for Capital Connect: Bangalore Edition.
+A visionary leader of innovation and entrepreneurship, his presence is a proud moment for Bengaluru’s startup ecosystem.
+We look forward to his insights as we unite founders, investors, and changemakers to shape India’s future. </p></div>
+</section> */}
+{/* Section Ended */}
         {/* card Code */}
         <div className="flex justify-center">
        <div className="grid grid-cols-1 gap-10 mt-10 justify-items-center xl:grid-cols-3 lg:grid-cols-2">
