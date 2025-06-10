@@ -19,37 +19,42 @@ import zoho from "../assets/Speakers/zoho-removebg.png";
 import peer_capital from "../assets/Speakers/peer_Capital_logo.png";
 import PEACH from "../assets/Speakers/peach.png";
 import linkedin from "../assets/Speakers/linkedin_logo.png"
+import rohit from "../assets/Speakers/rohit.png"
+import hdfc from "../assets/Speakers/hdfc.png"
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+
   const data = [
     {
       id: 1,
-      name: "Amit Singal",
-      title: "General Partner",
-      image: Amit_Singhal,
-      logo: fluid_ventures,
-      linkedin_profile: "https://www.linkedin.com/in/amitsingalca/"
+     name: "Rajalakshmi Srinivasan",
+      title: "Director",
+      image: rajalakshmi,
+      logo: zoho,
+      linkedin_profile: "https://www.linkedin.com/in/raji-zoho"
     },
     {
       id: 2,
-      name: "Raveen Sastry",
-      title: "Founding Partner",
-      image: Raveen_Sastry,
-      logo: multiply_ventures,
-      linkedin_profile: "https://www.linkedin.com/in/raveens/"
+ name: "Vikas Nahar",
+      title: "Founder",
+      image: vikas,
+      logo: happilo,
+      linkedin_profile: "https://www.linkedin.com/in/dvikas/?originalSubdomain=in"
+
     },
   {
-      id: 4,
-      name: "Vinod Keni",
-      title: "Founder & Managing Partner",
-      image: vinod,
-      logo: PEACH,
-      linkedin_profile: "https://www.linkedin.com/in/vinodkeni/"
+      id: 8,
+      name: "Rohit Kilam",
+      title: "Chief Technology Officer",
+      image: rohit,
+      logo: hdfc,
+      linkedin_profile: "https://www.linkedin.com/in/rohitkilam/"
+
     },
      {
-      id: 5,
+      id: 4,
       name: "Sunil Jain",
       title: "Founder and Group Managing Partner",
       image: sunil_jain,
@@ -58,14 +63,14 @@ const Speakers = () => {
     },
      {
       id: 5,
-      name: "Rajalakshmi Srinivasan",
-      title: "Director",
-      image: rajalakshmi,
-      logo: zoho,
-      linkedin_profile: "https://www.linkedin.com/in/raji-zoho"
+            name: "Amit Singal",
+      title: "General Partner",
+      image: Amit_Singhal,
+      logo: fluid_ventures,
+      linkedin_profile: "https://www.linkedin.com/in/amitsingalca/"
     },
       {
-      id: 5,  
+      id: 6,  
       name: "Karthik Prabhakar",
       title: "Managing Partner",
       image: kartik,
@@ -73,7 +78,7 @@ const Speakers = () => {
       linkedin_profile: "https://www.linkedin.com/in/karthikprabhakar"
     },
        {
-      id: 6,  
+      id: 7,  
       name: "Mandeep Julka",
       title: "Vice President",
       image: mandeep,
@@ -81,20 +86,28 @@ const Speakers = () => {
       linkedin_profile: "https://www.linkedin.com/in/mandeepjulka/?originalSubdomain=in"
     },
     {
-      id: 6,  
-      name: "Vikas Nahar",
-      title: "Founder",
-      image: vikas,
-      logo: happilo,
-      linkedin_profile: "https://www.linkedin.com/in/dvikas/?originalSubdomain=in"
+      id: 8,  
+     name: "Raveen Sastry",
+      title: "Founding Partner",
+      image: Raveen_Sastry,
+      logo: multiply_ventures,
+      linkedin_profile: "https://www.linkedin.com/in/raveens/"
     },
      {
-      id: 7,  
+      id: 9,  
       name: "Shushil Sharma",
       title: "CEO",
       image: sushil,
       logo: marwari,
       linkedin_profile: "https://www.linkedin.com/in/sushilsharmamcats/?originalSubdomain=in"
+    },
+    {
+      id: 10,  
+      name: "Vinod Keni",
+      title: "Founder & Managing Partner",
+      image: vinod,
+      logo: PEACH,
+      linkedin_profile: "https://www.linkedin.com/in/vinodkeni/"
     },
   ];
 

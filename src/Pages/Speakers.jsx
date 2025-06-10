@@ -9,7 +9,6 @@ import ScheduleTable from '../Components/ScheduleTable'
 import PlusSection from '../Components/PlusSection'
 import Startup_Footer from '../Components/Startup_Footer'
 import WhatsAppIconButton from '../Components/WhatsAppIconButton'
-
 const Speakers_Main = () => {
   const data = [
     {
