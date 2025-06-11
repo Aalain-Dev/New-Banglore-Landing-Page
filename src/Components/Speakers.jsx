@@ -21,6 +21,8 @@ import PEACH from "../assets/Speakers/peach.png";
 import linkedin from "../assets/Speakers/linkedin_logo.png"
 import rohit from "../assets/Speakers/rohit.png"
 import hdfc from "../assets/Speakers/hdfc.png"
+import goc from "../assets/Speakers/goc.png"
+import sahu from "../assets/Speakers/sahu.png"
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -109,6 +111,14 @@ const Speakers = () => {
       logo: PEACH,
       linkedin_profile: "https://www.linkedin.com/in/vinodkeni/"
     },
+     {
+      id: 10,  
+      name: "Sourav Sahu",
+      title: "Site Sponsor Global Lead Tools & Automation",
+      image: sahu,
+      logo: goc,
+      linkedin_profile: "https://www.linkedin.com/in/souravsahu"
+    },
   ];
 
   const openSidebar = (speaker) => {
@@ -124,7 +134,7 @@ const Speakers = () => {
   return (
     <div className="mt-10 mb-10">
       <div className="container">
-        <h1 className='text-center capitalize  mt-10 similar-head font-bold blue-color mt-5 xl:mt-10 mb-10'>
+        <h1 className='text-center capitalize similar-head font-bold blue-color mt-5 xl:mt-10 mb-10'>
           UPCOMING  SPEAKERS AT CAPITAL CONNECT
         </h1>
         <div className="w-24 h-1 bg-blue-400 mx-auto mt-2"></div>

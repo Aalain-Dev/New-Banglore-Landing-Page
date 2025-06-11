@@ -3,16 +3,33 @@ import React from 'react';
 import eranext from "../assets/Featured_Companies/eranext.png"
 import pdrl from "../assets/Featured_Companies/pdrl.png"
 import infinite from "../assets/Featured_Companies/infinite.jpg"
+import boycot from "../assets/Featured_Companies/boycot.png"
+import igo from "../assets/Featured_Companies/igo.png"
 const Companies = () => {
   const data = [
     {
-      img: eranext
+      img: eranext,
+      link:"https://www.eranext.in/"
     },
       {
-      img: pdrl
+      img: pdrl,
+      link:"https://pdrl.in/"
+
     },
      {
-      img: infinite
+      img: infinite,
+      link:"https://www.10infinite.com/"
+
+    },
+      {
+      img: igo,
+      link:"https://www.igo.com.au/site/content/"
+
+    },
+      {
+      img: boycot,
+      link:"https://boycottdenim.com/?srsltid=AfmBOopOqT3SKGyAELvskL36eK5hcTizzTfzTVNsyG3y0vVEEmOG1wOu"
+
     },
   ];
 const soon = [
@@ -51,12 +68,14 @@ const soon = [
         {
           data.map((item,index)=>{
             return(
-                 <div
+                 <a href = {item.link} target='_blank'>
+                  <div
             key={index}
             className="flex flex-col items-center justify-center bg-white/30 backdrop-blur-lg rounded-lg shadow-lg h-64 w-full p-6"
           >
          <img src={item.img} alt="" />
           </div>
+                 </a>
             )
           })
            
