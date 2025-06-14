@@ -66,7 +66,7 @@ const Venture_Capital = () => {
     <div className=" bg-[#211F52] pt-5 xl:mb-10 pb-5">
         <div className="pt-5 pb-5   ">
      <div className="container ">
-     <h1 className="text-center similar-head font-bold text-white ">VC's at Capital Connect
+     <h1 className="text-center similar-head font-bold text-white ">VCs at Capital Connect
 
        </h1>
        <div className="grid xl:grid-cols-4 lg:grid-cols-5 md:grid-cols-2 gap-10 grid-cols-2 place-items-center mt-10 justify-between">

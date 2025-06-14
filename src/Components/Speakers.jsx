@@ -116,7 +116,7 @@ const Speakers = () => {
      {
       id: 10,  
       name: "Sourav Sahu",
-      title: "Site Sponsor Global Lead Tools & Automation",
+      title: " Global Lead Tools & Automation",
       image: sahu,
       logo: goc,
       linkedin_profile: "https://www.linkedin.com/in/souravsahu"
