@@ -16,6 +16,7 @@ import Timer from '../Components/Timer'
 import Thanks from '../Components/Thanks'
 import Startup_Footer from '../Components/Startup_Footer'
 import WhatsAppIconButton from '../Components/WhatsAppIconButton'
+import Venture_Capital from '../Components/Vc'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
 <Performance_Strip/>
 <What_is_Event/>
 <Speakers/>
+<Venture_Capital/>
 <div className="tickets">
   <Tickets/>
 </div>
@@ -36,7 +38,6 @@ const Home = () => {
 <Update/>
 {/* <Footer/> */}
 <Startup_Footer/>
-<Timer/>
 <WhatsAppIconButton/>
 {/* <Thanks/> */}
 </>

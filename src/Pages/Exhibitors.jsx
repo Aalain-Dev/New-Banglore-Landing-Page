@@ -26,7 +26,6 @@ const Exhibitors = () => {
    <Exhibitors_Form/>
    <Startup_Footer/>
 
-<Timer/>
 <WhatsAppIconButton/>
     
     </>

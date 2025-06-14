@@ -33,7 +33,6 @@ const Speakers_Main = () => {
 <BE_A_SPEAKER />
 <Startup_Footer/>
 
-<Timer/>
 <WhatsAppIconButton/>
 
 </>

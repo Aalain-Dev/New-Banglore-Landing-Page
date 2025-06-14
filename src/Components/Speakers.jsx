@@ -23,6 +23,8 @@ import rohit from "../assets/Speakers/rohit.png"
 import hdfc from "../assets/Speakers/hdfc.png"
 import goc from "../assets/Speakers/goc.png"
 import sahu from "../assets/Speakers/sahu.png"
+import sam from "../assets/Speakers/sam.png"
+import dell from "../assets/Speakers/dell.png"
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -119,8 +121,15 @@ const Speakers = () => {
       logo: goc,
       linkedin_profile: "https://www.linkedin.com/in/souravsahu"
     },
+    {
+      id: 10,  
+      name: "Samriddhi Bhattacharyya",
+      title: "Director & GM – Generative AI Growth Business- Enterprise & Startups, India",
+      image: sam,
+      logo: dell,
+      linkedin_profile: "https://www.linkedin.com/in/samriddhi"
+    },
   ];
-
   const openSidebar = (speaker) => {
     setSelectedSpeaker(speaker);
     setIsSidebarOpen(true);

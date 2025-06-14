@@ -28,7 +28,6 @@ const InvestorsPage = () => {
     <Investor_Form/>
  </div>
    <AboutGrowth/>
-{/* <Timer/> */}
 <Investors_Sticky_Button/>
    <ConferenceAgenda/>
    <Speakers/>

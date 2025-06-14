@@ -18,7 +18,7 @@ const BE_A_SPEAKER = () => {
             <div className="w-24 h-1 bg-blue-400 mx-auto mt-2"></div>
 
             <p className='text-center xl:text-[1.25rem] text-[1rem] text-black'>
-              We’re always looking to collaborate with thought leaders who are willing to push the limits to shape the startup ecosystem. If you would like to propose be a speaker, please submit your application by clicking on the button below. If we think there could be a good fit, a member of our team will be in touch with you. Applications close on  13<sup>th</sup>, June 2025.
+              We’re always looking to collaborate with thought leaders who are willing to push the limits to shape the startup ecosystem. If you would like to propose be a speaker, please submit your application by clicking on the button below. If we think there could be a good fit, a member of our team will be in touch with you.
             </p>
 
             {/* Apply Button */}

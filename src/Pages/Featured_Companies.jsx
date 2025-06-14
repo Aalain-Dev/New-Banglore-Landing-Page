@@ -22,7 +22,6 @@ const Featured_Companies = () => {
 <Startup_Footer/>
 <WhatsAppIconButton/>
 
- <Timer/>
   </>
   )
 }
