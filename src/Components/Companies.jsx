@@ -5,6 +5,7 @@ import pdrl from "../assets/Featured_Companies/pdrl.png"
 import infinite from "../assets/Featured_Companies/infinite.jpg"
 import boycot from "../assets/Featured_Companies/boycot.png"
 import igo from "../assets/Featured_Companies/igo.png"
+import prav from "../assets/Featured_Companies/prav.png"
 const Companies = () => {
   const data = [
     {
@@ -29,6 +30,11 @@ const Companies = () => {
       {
       img: boycot,
       link:"https://boycottdenim.com/?srsltid=AfmBOopOqT3SKGyAELvskL36eK5hcTizzTfzTVNsyG3y0vVEEmOG1wOu"
+
+    },
+     {
+      img: prav,
+      link:""
 
     },
   ];
