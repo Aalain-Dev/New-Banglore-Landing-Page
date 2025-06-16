@@ -23,7 +23,7 @@ const Companies = () => {
     },
       {
       img: igo,
-      link:"https://www.igo.com.au/site/content/"
+      link:"https://beigo.in/"
 
     },
       {

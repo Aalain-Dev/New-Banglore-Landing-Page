@@ -17,6 +17,7 @@ import Speakers from './Speakers'
 import Performance_Strip from './Performance_Strip'
 import Investors_Sticky_Button from './Investors_Sticky_Button'
 import WhatsAppIconButton from './WhatsAppIconButton'
+import Venture_Capital from './Vc'
 
 const InvestorsPage = () => {
   return (
@@ -31,6 +32,7 @@ const InvestorsPage = () => {
 <Investors_Sticky_Button/>
    <ConferenceAgenda/>
    <Speakers/>
+   <Venture_Capital/>
    <InviteBanner/>
    <WhyAttend/>
    <PastEventsGallery/>
