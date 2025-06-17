@@ -6,6 +6,7 @@ import infinite from "../assets/Featured_Companies/infinite.jpg"
 import boycot from "../assets/Featured_Companies/boycot.png"
 import igo from "../assets/Featured_Companies/igo.png"
 import prav from "../assets/Featured_Companies/prav.png"
+import mad_vr from "../assets/Featured_Companies/mad_vr.png"
 const Companies = () => {
   const data = [
     {
@@ -34,7 +35,12 @@ const Companies = () => {
     },
      {
       img: prav,
-      link:""
+      link:"#"
+
+    },
+    {
+      img: mad_vr,
+      link:"http://www.madvr.in"
 
     },
   ];
