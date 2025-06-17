@@ -13,7 +13,7 @@ const BE_A_SPEAKER = () => {
         <div className="container">
           <div className="flex flex-col justify-center item-center xl:gap-5 gap-5">
             <h1 className='text-center xl:text-[3.125rem] pb-0 font-bold text-[1.5rem] blue-color'>
-              BE A SPEAKER AT BizDateUp!
+              BE A SPEAKER AT Capital Connect!
             </h1>
             <div className="w-24 h-1 bg-blue-400 mx-auto mt-2"></div>
 

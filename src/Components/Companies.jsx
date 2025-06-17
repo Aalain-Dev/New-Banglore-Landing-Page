@@ -7,6 +7,7 @@ import boycot from "../assets/Featured_Companies/boycot.png"
 import igo from "../assets/Featured_Companies/igo.png"
 import prav from "../assets/Featured_Companies/prav.png"
 import mad_vr from "../assets/Featured_Companies/mad_vr.png"
+import lapa from "../assets/Featured_Companies/lapa.png"
 const Companies = () => {
   const data = [
     {
@@ -41,6 +42,11 @@ const Companies = () => {
     {
       img: mad_vr,
       link:"http://www.madvr.in"
+
+    },
+     {
+      img: lapa,
+      link:"https://lapaelectric.com/"
 
     },
   ];
