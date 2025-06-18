@@ -11,6 +11,7 @@ import lapa from "../assets/Featured_Companies/lapa.png"
 import eassy from "../assets/Featured_Companies/eassy.jpg"
 import big_logo from "../assets/Featured_Companies/big_logo.png"
 import south from "../assets/Featured_Companies/south.jpg"
+import konnect from "../assets/Featured_Companies/konnect.jpg"
 const Companies = () => {
   const data = [
     {
@@ -67,6 +68,10 @@ const Companies = () => {
     {
       img: south,
       link:"https://www.southsutra.com/"
+    },
+    {
+      img: konnect,
+      link:"https://konnectnxt.com/"
     },
   ];
 
