@@ -8,6 +8,9 @@ import igo from "../assets/Featured_Companies/igo.png"
 import prav from "../assets/Featured_Companies/prav.png"
 import mad_vr from "../assets/Featured_Companies/mad_vr.png"
 import lapa from "../assets/Featured_Companies/lapa.png"
+import eassy from "../assets/Featured_Companies/eassy.jpg"
+import big_logo from "../assets/Featured_Companies/big_logo.png"
+import south from "../assets/Featured_Companies/south.jpg"
 const Companies = () => {
   const data = [
     {
@@ -48,16 +51,22 @@ const Companies = () => {
       img: lapa,
       link:"https://lapaelectric.com/"
 
+    },{
+      img: lapa,
+      link:"https://lapaelectric.com/"
+
     },
-  ];
-const soon = [
     {
-      img: "Soone"
+      img: eassy,
+      link:"#"
     },
     {
-      img: "Soone"
-    }, {
-      img: "Soone"
+      img: big_logo,
+      link:"https://www.evoride.in/"
+    },
+    {
+      img: south,
+      link:"https://www.southsutra.com/"
     },
   ];
 
@@ -98,7 +107,7 @@ const soon = [
           })
            
         }
-        {
+        {/* {
            soon.map((item,index)=>{
             return(
                  <div
@@ -110,7 +119,7 @@ const soon = [
           </div>
             )
           })
-        }
+        } */}
       </div>
     </div>
   );
