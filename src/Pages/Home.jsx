@@ -17,14 +17,17 @@ import Thanks from '../Components/Thanks'
 import Startup_Footer from '../Components/Startup_Footer'
 import WhatsAppIconButton from '../Components/WhatsAppIconButton'
 import Venture_Capital from '../Components/Vc'
+import Sponsor from '../Components/Sponsor'
 
 const Home = () => {
   return (
 <>
 <Navbar/>
 <Video/>
-<Performance_Strip/>
+<Sponsor/>
 <What_is_Event/>
+<Performance_Strip/>
+
 <Speakers/>
 <Venture_Capital/>
 <div className="tickets">

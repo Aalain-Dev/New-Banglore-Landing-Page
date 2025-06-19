@@ -1,77 +1,76 @@
-import React from 'react';
+import React from "react";
 // import Company_Card_2 from './Company_Card_2';
-import eranext from "../assets/Featured_Companies/eranext.png"
-import pdrl from "../assets/Featured_Companies/pdrl.png"
-import infinite from "../assets/Featured_Companies/infinite.jpg"
-import boycot from "../assets/Featured_Companies/boycot.png"
-import igo from "../assets/Featured_Companies/igo.png"
-import prav from "../assets/Featured_Companies/prav.png"
-import mad_vr from "../assets/Featured_Companies/mad_vr.png"
-import lapa from "../assets/Featured_Companies/lapa.png"
-import eassy from "../assets/Featured_Companies/eassy.jpg"
-import big_logo from "../assets/Featured_Companies/big_logo.png"
-import south from "../assets/Featured_Companies/south.jpg"
-import konnect from "../assets/Featured_Companies/konnect.jpg"
+import eranext from "../assets/Featured_Companies/eranext.png";
+import pdrl from "../assets/Featured_Companies/pdrl.png";
+import infinite from "../assets/Featured_Companies/infinite.jpg";
+import boycot from "../assets/Featured_Companies/boycot.png";
+import igo from "../assets/Featured_Companies/igo.png";
+import prav from "../assets/Featured_Companies/prav.png";
+import mad_vr from "../assets/Featured_Companies/mad_vr.png";
+import lapa from "../assets/Featured_Companies/lapa.png";
+import eassy from "../assets/Featured_Companies/eassy.jpg";
+import big_logo from "../assets/Featured_Companies/big_logo.png";
+import south from "../assets/Featured_Companies/south.jpg";
+import konnect from "../assets/Featured_Companies/konnect.jpg";
+import krio from "../assets/Featured_Companies/krio.jpg";
+import torchit from "../assets/Featured_Companies/torchit.png";
 const Companies = () => {
   const data = [
     {
       img: eranext,
-      link:"https://www.eranext.in/"
+      link: "https://www.eranext.in/",
     },
-      {
+    {
       img: pdrl,
-      link:"https://pdrl.in/"
-
+      link: "https://pdrl.in/",
     },
-     {
+    {
       img: infinite,
-      link:"https://www.10infinite.com/"
-
+      link: "https://www.10infinite.com/",
     },
-      {
+    {
       img: igo,
-      link:"https://beigo.in/"
-
+      link: "https://beigo.in/",
     },
-      {
+    {
       img: boycot,
-      link:"https://boycottdenim.com/?srsltid=AfmBOopOqT3SKGyAELvskL36eK5hcTizzTfzTVNsyG3y0vVEEmOG1wOu"
-
+      link: "https://boycottdenim.com/?srsltid=AfmBOopOqT3SKGyAELvskL36eK5hcTizzTfzTVNsyG3y0vVEEmOG1wOu",
     },
-     {
+    {
       img: prav,
-      link:"#"
-
+      link: "#",
     },
     {
       img: mad_vr,
-      link:"http://www.madvr.in"
-
+      link: "http://www.madvr.in",
     },
-     {
+    {
       img: lapa,
-      link:"https://lapaelectric.com/"
-
-    },{
-      img: lapa,
-      link:"https://lapaelectric.com/"
-
+      link: "https://lapaelectric.com/",
     },
     {
       img: eassy,
-      link:"#"
+      link: "#",
     },
     {
       img: big_logo,
-      link:"https://www.evoride.in/"
+      link: "https://www.evoride.in/",
     },
     {
       img: south,
-      link:"https://www.southsutra.com/"
+      link: "https://www.southsutra.com/",
     },
     {
       img: konnect,
-      link:"https://konnectnxt.com/"
+      link: "https://konnectnxt.com/",
+    },
+    {
+      img: krio,
+      link: "#",
+    },
+    {
+      img: torchit,
+      link: "https://mytorchit.com/",
     },
   ];
 
@@ -97,21 +96,18 @@ const Companies = () => {
             <p className='blue-color text-2xl font-semibold'>Coming Soon</p>
           </div>
         ))} */}
-        {
-          data.map((item,index)=>{
-            return(
-                 <a href = {item.link} target='_blank'>
-                  <div
-            key={index}
-            className="flex flex-col items-center justify-center bg-white/30 backdrop-blur-lg rounded-lg shadow-lg h-64 w-full p-6"
-          >
-         <img src={item.img} alt="" />
-          </div>
-                 </a>
-            )
-          })
-           
-        }
+        {data.map((item, index) => {
+          return (
+            <a href={item.link} target="_blank">
+              <div
+                key={index}
+                className="flex flex-col items-center justify-center bg-white/30 backdrop-blur-lg rounded-lg shadow-lg h-64 w-full p-6"
+              >
+                <img src={item.img} alt="" />
+              </div>
+            </a>
+          );
+        })}
         {/* {
            soon.map((item,index)=>{
             return(
