@@ -7,18 +7,22 @@ const Sponsor = () => {
      {
         id:1,
         text:"Creative partner",
-        img: jcl
+        img: jcl,
+        href : "https://www.jiocreativelabs.com/"
      },
      {
         id:2,
         text:"ecosystem partner",
-        img: nscerl
+        img: nscerl,
+        href : "https://nsrcel.org/"
      }
     ,
     {
         id:3,
         text:"photography partner",
-        img: sbs
+        img: sbs,
+      href:"https://www.sbsmedia.co.in/"
+
      }
     ]
   return (
@@ -37,7 +41,9 @@ const Sponsor = () => {
                   <div className="flex flex-col  justify-center items-center xl:gap-5 gap-2">
                 <p className="text-white xl:text-6xl uppercase xl:text-[1.5rem] text-[20px]  font-bold text-center">{item.text}
                 </p>
-                <img src={item.img} alt="" className="w-[250px]" />
+                <a href={item.href} target="_blank" rel="noopener noreferrer">
+                  <img src={item.img} alt="" className="w-[250px]" />
+                </a>
                        </div>
                 </div>
             )
